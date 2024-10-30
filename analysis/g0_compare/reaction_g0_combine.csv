@@ -1,0 +1,877 @@
+reaction_id,equation,gpr,g0,data_type
+ALAR,ala__L_c --> ala__D_c,Cgl0588,-0.1,Manual
+ALATA_L,glu__L_c + pyr_c --> akg_c + ala__L_c,Cgl2844,0.2,eQuilibrator_API
+ASNN,asn__L_c + h2o_c --> asp__L_c + nh4_c,Cgl2143,-17.3,eQuilibrator_API
+ASNS1,asp__L_c + atp_c + gln__L_c + h2o_c --> amp_c + asn__L_c + glu__L_c + h_c + ppi_c,Cgl2196,-43.0,eQuilibrator_API
+ASNS2,asp__L_c + atp_c + nh4_c --> amp_c + asn__L_c + h_c + ppi_c,Cgl2196,-29.0,eQuilibrator_API
+ASPT,asp__L_c --> fum_c + nh4_c,Cgl1503,13.8,eQuilibrator_API
+ASPTA,akg_c + asp__L_c --> glu__L_c + oaa_c,Cgl0240,2.8,eQuilibrator_API
+DAAD,ala__D_c + fad_c + h2o_c --> fadh2_c + nh4_c + pyr_c,Cgl3012,19.0,eQuilibrator_API
+VPAMT,3mob_c + ala__L_c --> pyr_c + val__L_c,Cgl2844,-1.6,eQuilibrator_API
+2METS,h2o_c + oaa_c + ppcoa_c --> coa_c + hcat_c,Cgl0659,-1.6,eQuilibrator_API
+ACHMSC,achms_c + cys__L_c --> ac_c + cyst__L_c + h_c,,-74.0,eQuilibrator_API
+ACNML,acnam_c --> acmana_c + pyr_c,Cgl2646,7.6,eQuilibrator_API
+ADNUC_num1,adn_c + h2o_c --> ade_c + rib__D_c,Cgl0102,-6.0,eQuilibrator_API
+AGDC,acgam6p_c + h2o_c --> ac_c + gam6p_c,Cgl2645,-10.0,eQuilibrator_API
+ALCD19_num1,glyald_c + h_c + nadh_c --> glyc_c + nad_c,Cgl0331,-35.0,eQuilibrator_API
+ALDD19x,h2o_c + nad_c + pacald_c --> 2.0 h_c + nadh_c + pac_c,Cgl2796,-45.8,eQuilibrator_API
+ALDD2x,acald_c + h2o_c + nad_c --> ac_c + 2.0 h_c + nadh_c,Cgl2668,-58.1,eQuilibrator_API
+AMALT1,malt_c + malttr_c --> glc__D_c + maltttr_c,Cgl2297,-3.0,eQuilibrator_API
+AMALT2,malt_c + maltttr_c --> glc__D_c + maltpt_c,Cgl2297,0.4,eQuilibrator_API
+AMALT3,malt_c + maltpt_c --> glc__D_c + malthx_c,Cgl2297,-1.3,eQuilibrator_API
+AMALT4,malt_c + malthx_c --> glc__D_c + malthp_c,Cgl2297,-1.3,eQuilibrator_API
+AMANAPEr,acmanap_c --> acgam6p_c,Cgl2648,-2.2,eQuilibrator_API
+APG,cdpdag_c + glyc3p_c --> apg_c + cmp_c,,-2.2,eQuilibrator_API
+ARAI_num1,arab__L_c --> rbl__L_c,Cgl1023,4.9,eQuilibrator_API
+BETALDHx,betald_c + h2o_c + nad_c --> glyb_c + 2.0 h_c + nadh_c,Cgl0546,-45.2,eQuilibrator_API
+BETALDHy,betald_c + h2o_c + nadp_c --> glyb_c + 2.0 h_c + nadph_c,Cgl0546,-44.9,eQuilibrator_API
+CBMKr,atp_c + co2_c + nh4_c --> adp_c + cbp_c + 2.0 h_c,,18.0,eQuilibrator_API
+DHACOAH,23dhacoa_c + h2o_c --> 3hadpcoa_c,Cgl0919,0.4,eQuilibrator_API
+DHAPT,dha_c + pep_c --> dhap_c + pyr_c,Cgl1528,-40.2,eQuilibrator_API
+DRPA,2dr5p_c --> acald_c + g3p_c,Cgl0383,20.3,eQuilibrator_API
+FFSD_num1,h2o_c + suc6p_c --> fru_c + g6p_c,Cgl2643,-21.1,eQuilibrator_API
+FRUK,atp_c + f1p_c --> adp_c + fdp_c + h_c,Cgl1935,-20.1,eQuilibrator_API
+G3PD2,glyc3p_c + nadp_c --> dhap_c + h_c + nadph_c,Cgl1320,21.8,eQuilibrator_API
+G3PT,glyc3p_c + h2o_c --> glyc_c + pi_c,Cgl1506,-13.2,eQuilibrator_API
+G6PDA,gam6p_c + h2o_c --> f6p_c + nh4_c,Cgl2644,2.1,eQuilibrator_API
+GLCATr,accoa_c + glc__D_c --> acglc__D_c + coa_c,Cgl0143,-1.7,eQuilibrator_API
+GLCRD,glcr_c --> 5dh4dglc_c + h2o_c,Cgl0422,-41.0,eQuilibrator_API
+GLYCDx,dha_c + h_c + nadh_c --> glyc_c + nad_c,Cgl2674,-19.8,eQuilibrator_API
+GLYK,atp_c + glyc_c --> adp_c + glyc3p_c + h_c,Cgl2890,-17.4,eQuilibrator_API
+GNK_num1,atp_c + glcn_c --> 6pgc_c + adp_c + h_c,Cgl2485,-12.7,eQuilibrator_API
+GUI1,glcur_c --> fruur_c,Cgl2484,0.6,eQuilibrator_API
+HCO3E,co2_c + h2o_c --> h_c + hco3_c,Cgl2670,-9.5,eQuilibrator_API
+HEX7,atp_c + fru_c --> adp_c + f6p_c + h_c,,-18.6,eQuilibrator_API
+HPYRI_num1,hpyr_c --> 2h3oppan_c,Cgl2109,1.6,eQuilibrator_API
+HSST_2,hom__L_c + succoa_c --> coa_c + suchms_c,,-29.0,eQuilibrator_API
+HXCT,accoa_c + hxa_c --> ac_c + hxcoa_c,Cgl2569 and Cgl2360,-5.1,Manual
+MALGT,malt_c --> tre_c,Cgl2303,0.4,eQuilibrator_API
+MALTATr,accoa_c + malt_c --> acmalt_c + coa_c,Cgl0143,-3.0,eQuilibrator_API
+MAN1PG,gtp_c + man1p_c --> gdpmann_c + ppi_c,Cgl0742,-8.9,eQuilibrator_API
+MAN6PI,man6p_c --> f6p_c,Cgl0748,-1.4,eQuilibrator_API
+MCITL2_num1,micit_c --> pyr_c + succ_c,Cgl0695,-11.2,Manual
+MM_COA_ADD5,atp_c + hco3_c + ppcoa_c --> adp_c + h_c + mmcoa__S_c + pi_c,Cgl0707,-6.0,eQuilibrator_API
+MMM2,succoa_c --> mmcoa__R_c,Cgl1529 and Cgl1530,8.8,eQuilibrator_API
+MSDH_num1,2mop_c + coa_c + h2o_c + nad_c --> hco3_c + nadh_c + ppcoa_c,Cgl0160,-39.2,eQuilibrator_API
+PFK_2,atp_c + tag6p__D_c --> adp_c + h_c + tagdp__D_c,Cgl1250,-20.5,eQuilibrator_API
+PGLYCP_num1,2pglyc_c + h2o_c --> glyclt_c + pi_c,Cgl2239,-32.0,eQuilibrator_API
+PGMT,g1p_c --> g6p_c,Cgl2541,-7.4,eQuilibrator_API
+PMANM_num1,man1p_c --> man6p_c,Cgl0687,-4.4,eQuilibrator_API
+PPASUCC,oaa_c + ppa_c --> pyr_c + succ_c,,-7.6,Manual
+RBK_num1,atp_c + rib__D_c --> adp_c + h_c + r5p_c,Cgl1366,-30.1,eQuilibrator_API
+SUCptsp,h2o_c + sucr_e --> f6p_c + g6p_c,Cgl3036,-1814.6,eQuilibrator_API
+TRE6p,h2o_c + tre6p_c --> g6p_c + glc__D_c,,-9.6,eQuilibrator_API
+TRE6PP,h2o_c + tre6p_c --> pi_c + tre_c,Cgl2626,-4.4,eQuilibrator_API
+TRE6PS,g6p_c + udpg_c --> h_c + tre6p_c + udp_c,Cgl2624,-19.4,eQuilibrator_API
+UACGAMPpp,h2o_c + uacgam_c --> acgam1p_c + 2.0 h_c + ump_c,,-36.0,eQuilibrator_API
+UDPARA,h_c + r5p_c + utp_c --> ppi_c + udpara_c,,-36.0,eQuilibrator_API
+UDPG4E,udpg_c --> udpgal_c,Cgl1921,1.3,eQuilibrator_API
+UDPGALPpp,h2o_c + udpgal_c --> gal1p_c + 2.0 h_c + ump_c,,-40.6,eQuilibrator_API
+UDPGPpp_num1,h2o_c + udpg_c --> g1p_c + 2.0 h_c + ump_c,Cgl0276,-43.0,eQuilibrator_API
+UGLCURPpp,h2o_c + udpglcur_c --> glcur1p_c + 2.0 h_c + ump_c,,-37.0,eQuilibrator_API
+XYLI1,xyl__D_c --> xylu__D_c,Cgl0172,3.7,eQuilibrator_API
+XYLI2,fru_c --> glc__D_c,Cgl0172,0.12,eQuilibrator_API
+XYLK,atp_c + xylu__D_c --> adp_c + h_c + xu5p__D_c,Cgl0112,-25.5,eQuilibrator_API
+GALKr,atp_c + gal_c --> adp_c + gal1p_c + h_c,Cgl2233,-17.0,eQuilibrator_API
+M1PD,f6p_c + h_c + nadh_c --> mnl1p_c + nad_c,Cgl0109,-5.7,eQuilibrator_API
+MAN2D,fru_c + h_c + nadh_c --> mnl_c + nad_c,Cgl0109,-5.8,eQuilibrator_API
+MCITD_num1,2mcit_c --> 2mcacn_c + h2o_c,Cgl0657,-2.9,eQuilibrator_API
+HDPA1,dha_c + pi_c --> dhap_c + h2o_c,,14.9,eQuilibrator_API
+HDPA2,atp_c + dha_c --> adp_c + dhap_c,,-15.7,eQuilibrator_API
+ICL,icit_c --> glx_c + succ_c,Cgl2331,8.9,eQuilibrator_API
+MALS,accoa_c + glx_c + h2o_c --> coa_c + h_c + mal__L_c,Cgl2330,-39.2,eQuilibrator_API
+ME1_num1,mal__L_c + nad_c --> co2_c + nadh_c + pyr_c,Cgl0234,12.1,eQuilibrator_API
+ME2,mal__L_c + nadp_c --> co2_c + nadph_c + pyr_c,Cgl3007,12.4,eQuilibrator_API
+PPA,h2o_c + ppi_c --> h_c + 2.0 pi_c,Cgl2700,-15.74,eQuilibrator_API
+PPC,co2_c + h2o_c + pep_c --> h_c + oaa_c + pi_c,Cgl1585,-41.8,eQuilibrator_API
+PPCK,atp_c + oaa_c --> adp_c + co2_c + pep_c,Cgl2864,11.2,eQuilibrator_API
+ABTA,4abut_c + akg_c --> glu__L_c + sucsal_c,Cgl0479,6.2,eQuilibrator_API
+ACGK,acglu_c + atp_c --> acg5p_c + adp_c,Cgl1396,25.7,eQuilibrator_API
+ACGS,accoa_c + glu__L_c --> acglu_c + coa_c + h_c,Cgl1395,-26.2,eQuilibrator_API
+ACODA,acorn_c + h2o_c --> ac_c + orn_c,Cgl2829,-6.9,eQuilibrator_API
+ACOTA,acorn_c + akg_c --> acg5sa_c + glu__L_c,Cgl1397,-3.6,eQuilibrator_API
+AGPR,acg5sa_c + nadp_c + pi_c --> acg5p_c + h_c + nadph_c,Cgl1394,4.6,eQuilibrator_API
+AMPTASEPG_num1,h2o_c + progly_c --> gly_c + pro__L_c,Cgl2426,28.0,eQuilibrator_API
+ARGSL,argsuc_c --> arg__L_c + fum_c,Cgl1401,-9.0,eQuilibrator_API
+CBPS,2.0 atp_c + gln__L_c + h2o_c + hco3_c --> 2.0 adp_c + cbp_c + glu__L_c + 2.0 h_c + pi_c,Cgl1609 and Cgl1610,-17.5,eQuilibrator_API
+CSND,crtn_c + h2o_c --> nh3_c + nmeth_c,Cgl0076,-17.5,eQuilibrator_API
+G5SADs,glu5sa_c --> 1pyr5c_c + h2o_c + h_c,,-38.0,eQuilibrator_API
+G5SD,glu5p_c + h_c + nadph_c --> glu5sa_c + nadp_c + pi_c,Cgl2354,-7.1,eQuilibrator_API
+GLU5K,atp_c + glu__L_c --> adp_c + glu5p_c,Cgl2356,29.5,eQuilibrator_API
+GLUNATF,acorn_c + glu__L_c --> acglu_c + orn_c,Cgl1395,2.7,eQuilibrator_API
+OCBT,cbp_c + orn_c --> citr__L_c + h_c + pi_c,Cgl1398,-31.6,eQuilibrator_API
+ORNC,orn_c --> nh3_c + pro__L_c,Cgl1582,-23.0,eQuilibrator_API
+P5CD,1pyr5c_c + 2.0 h2o_c + nad_c --> glu__L_c + h_c + nadh_c,Cgl0099,-15.0,eQuilibrator_API
+P5CR,1pyr5c_c + 2.0 h_c + nadph_c --> nadp_c + pro__L_c,Cgl0410,-13.0,eQuilibrator_API
+PROD2,fad_c + pro__L_c --> 1pyr5c_c + fadh2_c + h_c,Cgl0099,-1.0,eQuilibrator_API
+SPMDAT1,accoa_c + spmd_c --> N1aspmd_c + coa_c + h_c,Cgl1237,-26.7,eQuilibrator_API
+SPMDAT2_num1,accoa_c + spmd_c --> coa_c + h_c + n8aspmd_c,Cgl0120,-27.2,eQuilibrator_API
+SSALy_num1,h2o_c + nadp_c + sucsal_c --> 2.0 h_c + nadph_c + succ_c,Cgl0051,-44.3,eQuilibrator_API
+UREAAH,h2o_c + urea_c --> co2_c + 2.0 nh4_c,Cgl0084 and Cgl0085 and Cgl0086,-20.0,eQuilibrator_API
+ARGSS,asp__L_c + atp_c + citr__L_c --> amp_c + argsuc_c + h_c + ppi_c,Cgl1400,14.0,eQuilibrator_API
+CG_biomass_cgl_ATCC13032,0.098705 arabino_c + 47.7 atp_c + 0.01039 dna_c + 47.7 h2o_c + 0.062224 ions_c + 0.10598 mycoli_c + 0.098705 peptid_c + 0.029092 phosph_c + 0.54028 protein_c + 0.05195 rna_c + 0.002679 soluble_pool_c --> 47.7 adp_c + biomass_c + 47.7 h_c + 47.7 pi_c,,14.0,eQuilibrator_API
+BAMPN,apo_c + btamp_c --> amp_c + bccp_c + h_c,,14.0,eQuilibrator_API
+BIOTIN_t,atp_c + btn_e + h2o_c --> adp_c + btn_c + h_c + pi_c,,-30.61,eQuilibrator_API
+ALAALAr,2.0 ala__D_c + atp_c --> adp_c + alaala_c + h_c + pi_c,Cgl1321,-29.0,eQuilibrator_API
+CDPDAG,ctp_c + pa_c --> cdpdag_c + ppi_c,,-29.0,eQuilibrator_API
+CLPN,apg_c --> clpn_c + glyc_c + pi_c,,-29.0,eQuilibrator_API
+FACOAL160t2pp_num1,atp_c + coa_c + h_e + hdca_e --> amp_c + h_c + pmtcoa_c + ppi_c,Cgl0400 and Cgl2296,-16.0,eQuilibrator_API
+FACOAL180t2pp_num1,atp_c + coa_c + h_e + ocdca_e --> amp_c + h_c + ppi_c + stcoa_c,Cgl0400 and Cgl2296,-14.6,eQuilibrator_API
+FACOAL80t2pp_num1,atp_c + coa_c + h_e + octa_e --> amp_c + h_c + occoa_c + ppi_c,Cgl0400 and Cgl2296,-14.6,eQuilibrator_API
+G1PACT,accoa_c + gam1p_c --> acgam1p_c + coa_c + h_c,Cgl0943,-25.0,eQuilibrator_API
+GF6PTA,f6p_c + gln__L_c --> gam6p_c + glu__L_c,Cgl2271,-16.3,eQuilibrator_API
+GLUR,glu__D_c --> glu__L_c,Cgl2509,-0.5,eQuilibrator_API
+INPTH,g6p_c --> mi1p__D_c,Cgl2996,-60.0,eQuilibrator_API
+MI1PP_num1,h2o_c + mi1p__D_c --> inost_c + pi_c,Cgl1909,-23.1,eQuilibrator_API
+PGAMT,gam1p_c --> gam6p_c,Cgl0583,-3.4,eQuilibrator_API
+PIM,pit_c --> pim_c,,-3.4,eQuilibrator_API
+PIT,cdpdag_c --> pit_c,,-3.4,eQuilibrator_API
+TDPGDH_num1,dtdpglu_c --> dtdp4d6dg_c + h2o_c,Cgl0323,-47.5,eQuilibrator_API
+UAAGDS,26dap__M_c + atp_c + uamag_c --> adp_c + h_c + pi_c + ugmd_c,Cgl2163,-25.1,eQuilibrator_API
+UAGCVT_num1,pep_c + uacgam_c --> pi_c + uaccg_c,Cgl0352,-14.0,eQuilibrator_API
+UAGDP,acgam1p_c + h_c + utp_c --> ppi_c + uacgam_c,Cgl0943,-10.1,eQuilibrator_API
+UAGPT3,uacgam_c + uagmda_c --> h_c + uaagmda_c + udp_c,Cgl2158,-15.7,eQuilibrator_API
+UAMAGS,atp_c + glu__D_c + uama_c --> adp_c + h_c + pi_c + uamag_c,Cgl2160,-32.6,eQuilibrator_API
+UAMAS,ala__L_c + atp_c + uamr_c --> adp_c + h_c + pi_c + uama_c,Cgl2157,-31.4,eQuilibrator_API
+UAMDH_num1,h_c + nadph_c + uaccg_c --> nadp_c + uamr_c,Cgl0353,-54.6,eQuilibrator_API
+UDCPDP,h2o_c + udcpdp_c --> h_c + pi_c + udcpp_c,Cgl1515,-36.3,eQuilibrator_API
+UDPGALM,udpgal_c --> udpgalfur_c,Cgl2888,2.7,eQuilibrator_API
+UDPGD_num1,h2o_c + 2.0 nad_c + udpg_c --> 3.0 h_c + 2.0 nadh_c + udpglcur_c,Cgl0360,-31.5,eQuilibrator_API
+UGMDDS,alaala_c + atp_c + ugmd_c --> adp_c + h_c + pi_c + ugmda_c,Cgl2162,-33.8,eQuilibrator_API
+G1PTT,dttp_c + g1p_c + h_c --> dtdpglu_c + ppi_c,Cgl0332,1.8,eQuilibrator_API
+GALUi_num1,g1p_c + h_c + utp_c --> ppi_c + udpg_c,Cgl0367,-3.2,eQuilibrator_API
+PAPPT3,udcpp_c + ugmda_c --> uagmda_c + ump_c,Cgl2161,-1.7,eQuilibrator_API
+ACONTa,cit_c --> acon_C_c + h2o_c,Cgl1540,9.2,eQuilibrator_API
+ACONTb,acon_C_c + h2o_c --> icit_c,Cgl1540,-1.4,eQuilibrator_API
+AKGDH,akg_c + coa_c + nad_c --> co2_c + nadh_c + succoa_c,Cgl1129 and Cgl0366 and Cgl2207 and Cgl2248,-29.0,eQuilibrator_API
+CITL,cit_c --> ac_c + oaa_c,Cgl0862,4.2,eQuilibrator_API
+CS_num1,accoa_c + h2o_c + oaa_c --> cit_c + coa_c + h_c,Cgl0696,-40.0,eQuilibrator_API
+FRD2,fum_c + mql8_c --> mqn8_c + succ_c,Cgl0370 and Cgl0371 and Cgl0372,-34.0,eQuilibrator_API
+FRD3,2dmmql8_c + fum_c --> 2dmmq8_c + succ_c,Cgl0370 and Cgl0371 and Cgl0372,-12.0,eQuilibrator_API
+FUM,fum_c + h2o_c --> mal__L_c,Cgl1010,-3.43,eQuilibrator_API
+ICDHyr,icit_c + nadp_c --> akg_c + co2_c + nadph_c,Cgl0664,5.4,eQuilibrator_API
+MDH,mal__L_c + nad_c --> h_c + nadh_c + oaa_c,Cgl2380,25.38,eQuilibrator_API
+MDH2,mal__L_c + q8_c --> oaa_c + q8h2_c,Cgl2001,-105.0,eQuilibrator_API
+MDH3,mal__L_c + mqn8_c --> mql8_c + oaa_c,Cgl2380,3.0,eQuilibrator_API
+PYRC,atp_c + hco3_c + pyr_c --> adp_c + h_c + oaa_c + pi_c,Cgl0689,-7.8,eQuilibrator_API
+SUCOAS,adp_c + pi_c + succoa_c --> atp_c + coa_c + succ_c,Cgl2566 and Cgl2565,1.8,eQuilibrator_API
+2MAHMP,2mahmp_c + h2o_c --> 4ampm_c + h_c + pi_c,Cgl1176,-35.0,eQuilibrator_API
+ADCL,4adcho_c --> 4abz_c + h_c + pyr_c,Cgl2580,-92.0,eQuilibrator_API
+ADCS,chor_c + gln__L_c --> 4adcho_c + glu__L_c,Cgl0997,-18.5,eQuilibrator_API
+ALATA_D2,ala__D_c + pydx5p_c --> pyam5p_c + pyr_c,Cgl0996,0.9,eQuilibrator_API
+ALATA_L2,ala__L_c + pydx5p_c --> pyam5p_c + pyr_c,Cgl0996,0.9,eQuilibrator_API
+AMAOTr,8aonn_c + amet_c --> amob_c + dann_c,Cgl2604,-1.774850272743,eQuilibrator_API
+AMPMS2,air_c + h2o_c + nad_c --> 4ampm_c + 2.0 for_c + 3.0 h_c + nadh_c,Cgl1305,-186.0,eQuilibrator_API
+ASP1DC,asp__L_c + h_c --> ala_B_c + co2_c,Cgl0135,-15.0,eQuilibrator_API
+ASPO5,asp__L_c + fum_c --> h_c + iasp_c + succ_c,,0.1,eQuilibrator_API
+CDPMEK,4c2me_c + atp_c --> 2p4c2me_c + adp_c + h_c,Cgl0911,-9.0,eQuilibrator_API
+CPPPGO,cpppg3_c + 2.0 h_c + o2_c --> 2.0 co2_c + 2.0 h2o_c + pppg9_c,,-353.0,eQuilibrator_API
+DB4PS,ru5p__D_c --> db4p_c + for_c + h_c,Cgl1595,-89.6,eQuilibrator_API
+DBTS,atp_c + co2_c + dann_c --> adp_c + dtbt_c + 3.0 h_c + pi_c,Cgl2605,2.0,eQuilibrator_API
+DHFR,dhf_c + h_c + nadph_c --> nadp_c + thf_c,Cgl0843,-18.1,eQuilibrator_API
+DHFS,atp_c + dhpt_c + glu__L_c --> adp_c + dhf_c + h_c + pi_c,Cgl2375,-21.0,eQuilibrator_API
+DHPS2_num1,4abz_c + 6hmhptpp_c --> dhpt_c + ppi_c,Cgl1111,-65.0,eQuilibrator_API
+DHPTPE,ahdt_c --> dhmptp_c,Cgl2693,-17.0,eQuilibrator_API
+DMATT_num1,dmpp_c + ipdp_c --> grdp_c + ppi_c,Cgl0626,-82.3,eQuilibrator_API
+DMPPS,h2mb4p_c + h_c + nadh_c --> dmpp_c + h2o_c + nad_c,Cgl1026,-61.6,eQuilibrator_API
+DPCOAK,atp_c + dpcoa_c --> adp_c + coa_c + h_c,Cgl1361,3.1,eQuilibrator_API
+DPR,2dhp_c + h_c + nadph_c --> nadp_c + pant__R_c,Cgl1089,-15.2,eQuilibrator_API
+DXPRIi,dxyl5p_c + h_c + nadph_c --> 2me4p_c + nadp_c,Cgl2016,-12.2,eQuilibrator_API
+DXPS,g3p_c + h_c + pyr_c --> co2_c + dxyl5p_c,Cgl1902,-27.7,eQuilibrator_API
+FMNAT,atp_c + fmn_c + h_c --> fad_c + ppi_c,Cgl1978,-9.0,eQuilibrator_API
+G1SAT,glu1sa_c --> 5aop_c,Cgl0437,-9.5,eQuilibrator_API
+GDPDPK,atp_c + gdp_c --> amp_c + h_c + ppgpp_c,Cgl1177,-12.0,eQuilibrator_API
+GDPTPDP,gdptp_c + h2o_c --> gtp_c + ppi_c,Cgl1313,-38.0,eQuilibrator_API
+GLUCYS,atp_c + cys__L_c + glu__L_c --> adp_c + glucys_c + h_c + pi_c,Cgl2736,-36.0,eQuilibrator_API
+GLYOD,glyclt_c + o2_c --> glx_c + h2o2_c,Cgl2315,-88.0,eQuilibrator_API
+GRTT_num1,grdp_c + ipdp_c --> frdp_c + ppi_c,Cgl0626,-83.9,eQuilibrator_API
+GTHOr,gthox_c + h_c + nadph_c --> 2.0 gthrd_c + nadp_c,Cgl2003,-12.2,eQuilibrator_API
+GTHRDHpp,gthrd_c + h2o_c --> cgly_c + glu__L_c,Cgl0954,-2.0,eQuilibrator_API
+GTPCI,gtp_c + h2o_c --> ahdt_c + for_c + h_c,Cgl2695,-63.0,eQuilibrator_API
+GTPDPDP_num1,gdptp_c + h2o_c --> h_c + pi_c + ppgpp_c,Cgl0977,-32.8,eQuilibrator_API
+GTPDPK,atp_c + gtp_c --> amp_c + gdptp_c + h_c,Cgl1653,-8.0,eQuilibrator_API
+HETZK,4mhetz_c + atp_c --> 4mpetz_c + adp_c + h_c,Cgl1464,-19.1,eQuilibrator_API
+HMBS,h2o_c + 4.0 ppbng_c --> hmbil_c + 4.0 nh4_c,Cgl0418,-121.0,eQuilibrator_API
+HPPK2,6hmhpt_c + atp_c --> 6hmhptpp_c + amp_c + h_c,Cgl2692,-8.0,eQuilibrator_API
+ICHORS,chor_c --> ichor_c,Cgl1292,1.0,eQuilibrator_API
+IPDDI,ipdp_c --> dmpp_c,Cgl2305,-4.8,eQuilibrator_API
+IPDPS,h2mb4p_c + h_c + nadh_c --> h2o_c + ipdp_c + nad_c,Cgl1026,-56.8,eQuilibrator_API
+MEPCT,2me4p_c + ctp_c + h_c --> 4c2me_c + ppi_c,Cgl2660,-9.7,eQuilibrator_API
+MOHMT,3mob_c + h2o_c + mlthf_c --> 2dhp_c + thf_c,Cgl0114,10.0,eQuilibrator_API
+MSDHD_num1,coa_c + msa_c + nad_c --> accoa_c + co2_c + nadh_c,Cgl0160,-26.0,eQuilibrator_API
+NADDP_num1,h2o_c + nad_c --> amp_c + 2.0 h_c + nmn_c,Cgl0778,-42.5,eQuilibrator_API
+NADK,atp_c + nad_c --> adp_c + h_c + nadp_c,Cgl1413,-13.1,eQuilibrator_API
+NADPPPS_num1,h2o_c + nadp_c --> nad_c + pi_c,Cgl0299,-17.6,eQuilibrator_API
+NADS1,atp_c + dnad_c + nh4_c --> amp_c + h_c + nad_c + ppi_c,Cgl2534,-27.0,eQuilibrator_API
+NNAM,h2o_c + ncam_c --> nac_c + nh4_c,Cgl2487,-2.5,eQuilibrator_API
+NNDMBRT,dmbzid_c + nicrnt_c --> 5prdmbz_c + h_c + nac_c,Cgl2200,-25.0,eQuilibrator_API
+NNDPR,2.0 h_c + prpp_c + quln_c --> co2_c + nicrnt_c + ppi_c,Cgl1068,-26.0,eQuilibrator_API
+NPHS,sbzcoa_c --> coa_c + dhna_c,Cgl0463,-110.0,eQuilibrator_API
+OCTDPS,frdp_c + 5.0 ipdp_c --> octdp_c + 5.0 ppi_c,Cgl0473,-419.0,eQuilibrator_API
+OHPBAT,glu__L_c + ohpb_c --> akg_c + phthr_c,Cgl0828,10.0,eQuilibrator_API
+PANTS_num1,ala_B_c + atp_c + pant__R_c --> amp_c + h_c + pnto__R_c + ppi_c,Cgl0113,-47.0,eQuilibrator_API
+PMPK,4ampm_c + atp_c --> 2mahmp_c + adp_c,Cgl1463,5.0,eQuilibrator_API
+PNTK,atp_c + pnto__R_c --> 4ppan_c + adp_c + h_c,Cgl0995,-17.9,eQuilibrator_API
+PPBNGS,2.0 5aop_c --> 2.0 h2o_c + h_c + ppbng_c,Cgl0431,-104.0,eQuilibrator_API
+PPCDC,4ppcys_c + h_c --> co2_c + pan4p_c,Cgl1604,-21.2,eQuilibrator_API
+PPGPPDP,h2o_c + ppgpp_c --> gdp_c + ppi_c,Cgl1653,-34.0,eQuilibrator_API
+PPNCL2,4ppan_c + ctp_c + cys__L_c --> 4ppcys_c + cmp_c + h_c + ppi_c,Cgl1604,-60.0,eQuilibrator_API
+PTPATi,atp_c + h_c + pan4p_c --> dpcoa_c + ppi_c,Cgl1329,-18.0,eQuilibrator_API
+PY5PSH,g3p_c + gln__L_c + r5p_c --> glu__L_c + 3.0 h2o_c + h_c + pi_c + pydx5p_c,Cgl0788 and Cgl0789,-308.0,eQuilibrator_API
+PYDAMK,atp_c + pydam_c --> adp_c + h_c + pyam5p_c,Cgl0913 and Cgl3079,-17.3,eQuilibrator_API
+PYDXK,atp_c + pydx_c --> adp_c + h_c + pydx5p_c,Cgl0913 and Cgl3079,-18.3,eQuilibrator_API
+PYDXNK,atp_c + pydxn_c --> adp_c + h_c + pdx5p_c,Cgl0913 and Cgl3079,-10.9,eQuilibrator_API
+QULNS,dhap_c + iasp_c --> 2.0 h2o_c + pi_c + quln_c,Cgl1069,-221.0,eQuilibrator_API
+RBFSa,4r5au_c + db4p_c --> dmlz_c + 2.0 h2o_c + pi_c,Cgl1594,-100.0,eQuilibrator_API
+RBFSb,2.0 dmlz_c --> 4r5au_c + ribflv_c,Cgl1596,-95.0,eQuilibrator_API
+RZ5PP,5prdmbz_c + h2o_c --> pi_c + rdmbzi_c,Cgl0644,-15.4,eQuilibrator_API
+SEPHCHCS,akg_c + h_c + ichor_c --> 2sephchc_c + co2_c,Cgl0467,-1.0,eQuilibrator_API
+SUCBZL,atp_c + coa_c + sucbz_c --> amp_c + ppi_c + sbzcoa_c,Cgl0450,-18.5,eQuilibrator_API
+TDPDSH,dtdp4d6dg_c --> dtdp4d6dm_c,Cgl0333,-15.4,eQuilibrator_API
+TMPK,atp_c + thmmp_c --> adp_c + thmpp_c,Cgl1323,-50.0,eQuilibrator_API
+TMPPP_num1,2mahmp_c + 4mpetz_c + h_c --> ppi_c + thmmp_c,Cgl1463,-25.6,eQuilibrator_API
+TRATF_num1,akg_c + tau_c --> 2saa_c + glu__L_c,Cgl2441,-25.6,eQuilibrator_API
+UDCPDPS,frdp_c + 8.0 ipdp_c --> 8.0 ppi_c + udcpdp_c,Cgl2283,-671.0,eQuilibrator_API
+UPP3MT_num1,2.0 amet_c + uppg3_c --> 2.0 ahcys_c + dscL_c + h_c,Cgl0429,-671.0,eQuilibrator_API
+UPPDC1,4.0 h_c + uppg3_c --> 4.0 co2_c + cpppg3_c,Cgl0435,-24.0,eQuilibrator_API
+NAMNPP,atp_c + h2o_c + nac_c + prpp_c --> adp_c + nicrnt_c + pi_c + ppi_c,Cgl2517,-39.2,eQuilibrator_API
+RBFK,atp_c + ribflv_c --> adp_c + fmn_c + h_c,Cgl1978,-16.5,eQuilibrator_API
+ADSK,aps_c + atp_c --> adp_c + h_c + paps_c,,-17.0,eQuilibrator_API
+AMPTASECG_num1,cgly_c + h2o_c --> cys__L_c + gly_c,Cgl2426,8.0,eQuilibrator_API
+BPNT,h2o_c + pap_c --> amp_c + pi_c,Cgl0845,-7.2,eQuilibrator_API
+CYSS,acser_c + h2s_c --> ac_c + cys__L_c + h_c,Cgl2562,-51.0,eQuilibrator_API
+MCPST_num1,cyan_c + mercppyr_c --> h_c + pyr_c + tcynt_c,Cgl0701,-80.0,eQuilibrator_API
+PAPSR,paps_c + trdrd_c --> 2.0 h_c + pap_c + so3_c + trdox_c,Cgl2816,-47.0,eQuilibrator_API
+SADT2,atp_c + gtp_c + h2o_c + so4_c --> aps_c + gdp_c + pi_c + ppi_c,Cgl2814 and Cgl2815,17.8,eQuilibrator_API
+SERAT,accoa_c + ser__L_c --> acser_c + coa_c,Cgl2563,-6.0,eQuilibrator_API
+SULRi,5.0 h_c + 3.0 nadph_c + so3_c --> 3.0 h2o_c + h2s_c + 3.0 nadp_c,Cgl2817 and Cgl2818,-106.0,eQuilibrator_API
+ACBCP,accoa_c + cbccp_c --> bccp_c + malcoa_c,,-106.0,eQuilibrator_API
+BTNC,atp_c + bccp_c + co2_c + h2o_c --> adp_c + cbccp_c + 2.0 h_c + pi_c,,-106.0,eQuilibrator_API
+5FTHFC,5fthf_c + atp_c --> adp_c + mlthf_c + pi_c,Cgl0881,-13.0,eQuilibrator_API
+FOMETRi,5fthf_c + h_c --> h2o_c + methf_c,Cgl0881,-45.0,eQuilibrator_API
+FTHFD,10fthf_c + h2o_c --> for_c + h_c + thf_c,Cgl0382,-25.6,eQuilibrator_API
+GLYCL,gly_c + nad_c + thf_c --> co2_c + mlthf_c + nadh_c + nh4_c,,19.0,eQuilibrator_API
+MTHFC,h2o_c + methf_c --> 10fthf_c + h_c,Cgl0648,-5.0,eQuilibrator_API
+MTHFD,mlthf_c + nadp_c --> methf_c + nadph_c,Cgl0648,5.5,eQuilibrator_API
+MTHFR2,2.0 h_c + mlthf_c + nadh_c --> 5mthf_c + nad_c,Cgl2171,-39.0,eQuilibrator_API
+TMDS2,dump_c + h_c + mlthf_c + nadph_c --> dtmp_c + nadp_c + thf_c,Cgl1972,-63.4,eQuilibrator_API
+GLNS_num1,atp_c + glu__L_c + nh4_c --> adp_c + gln__L_c + h_c + pi_c,Cgl2214,-16.4,eQuilibrator_API
+GLUDC,glu__L_c + h_c --> 4abut_c + co2_c,,-19.3,eQuilibrator_API
+GLUDy,akg_c + h_c + nadph_c + nh4_c --> glu__L_c + h2o_c + nadp_c,Cgl2079,-33.2,eQuilibrator_API
+GLUN,gln__L_c + h2o_c --> glu__L_c + nh4_c,Cgl2482,-14.2,eQuilibrator_API
+GLUSy,akg_c + gln__L_c + h_c + nadph_c --> 2.0 glu__L_c + nadp_c,Cgl0184 and Cgl0185,-47.4,eQuilibrator_API
+DASYN140,ctp_c + h_c + pa140_c --> cdpdtdecg_c + ppi_c,Cgl2022,-9.7,eQuilibrator_API
+DASYN180,ctp_c + h_c + pa180_c --> cdpdodecg_c + ppi_c,Cgl2022,-9.7,eQuilibrator_API
+LPLIPAL1A180pp_num1,1odecg3p_c + h2o_c --> glyc3p_c + h_c + ocdca_c,Cgl0080,-28.6,eQuilibrator_API
+GHMT2r,ser__L_c + thf_c --> gly_c + h2o_c + mlthf_c,Cgl0996,-10.1,eQuilibrator_API
+GLYCK2,atp_c + glyc__R_c --> 2pg_c + adp_c + h_c,Cgl2082,-11.4,eQuilibrator_API
+PGCD,3pg_c + nad_c --> 3php_c + h_c + nadh_c,Cgl1284,29.5,eQuilibrator_API
+PSERT,3php_c + glu__L_c --> akg_c + pser__L_c,Cgl0828,-10.9,eQuilibrator_API
+PSP_L,h2o_c + pser__L_c --> pi_c + ser__L_c,Cgl2522,-10.56,eQuilibrator_API
+SARCOX,h2o_c + o2_c + sarcs_c --> fald_c + gly_c + h2o2_c,Cgl1581,-71.0,eQuilibrator_API
+SERD_L,ser__L_c --> nh4_c + pyr_c,Cgl1645,-29.9,eQuilibrator_API
+ENO,2pg_c --> h2o_c + pep_c,Cgl0974,-3.89,eQuilibrator_API
+FBA,fdp_c --> dhap_c + g3p_c,Cgl2770,23.7,eQuilibrator_API
+FBP,fdp_c + h2o_c --> f6p_c + pi_c,Cgl1019,-11.7,eQuilibrator_API
+GAPD_num1,g3p_c + nad_c + pi_c --> 13dpg_c + h_c + nadh_c,Cgl0937,0.1,eQuilibrator_API
+GLCP_num1,glycogen_c + pi_c --> g1p_c,Cgl1308,811.0,eQuilibrator_API
+GLCS1,adpglc_c --> adp_c + glycogen_c + h_c,Cgl1117,-817.0,eQuilibrator_API
+GLGC,atp_c + g1p_c + h_c --> adpglc_c + ppi_c,Cgl1118,-8.7,eQuilibrator_API
+HEX1,atp_c + glc__D_c --> adp_c + g6p_c + h_c,Cgl2185,-21.2,eQuilibrator_API
+PDH,coa_c + nad_c + pyr_c --> accoa_c + co2_c + nadh_c,Cgl1129 and Cgl0366 and Cgl2207 and Cgl2248,-34.4,eQuilibrator_API
+PFK,atp_c + f6p_c --> adp_c + fdp_c + h_c,Cgl1250,-18.9,eQuilibrator_API
+PGI,g6p_c --> f6p_c,Cgl0851,2.5,eQuilibrator_API
+PGK,13dpg_c + adp_c --> 3pg_c + atp_c,Cgl1587,-19.5,eQuilibrator_API
+PGM_num1,3pg_c --> 2pg_c,Cgl1058,4.3,eQuilibrator_API
+PPS,atp_c + h2o_c + pyr_c --> amp_c + 2.0 h_c + pep_c + pi_c,Cgl0551 and Cgl0553,-6.6,eQuilibrator_API
+PYK_num1,adp_c + h_c + pep_c --> atp_c + pyr_c,Cgl2089,-24.5,eQuilibrator_API
+TPI,dhap_c --> g3p_c,Cgl1586,5.7,eQuilibrator_API
+GLYCK,atp_c + glyc__R_c --> 3pg_c + adp_c + h_c,Cgl2081,-15.6,eQuilibrator_API
+HISTD,h2o_c + histd_c + 2.0 nad_c --> 3.0 h_c + his__L_c + 2.0 nadh_c,Cgl2102,-19.6,eQuilibrator_API
+HISTP,h2o_c + hisp_c --> histd_c + pi_c,Cgl0799,-21.4,eQuilibrator_API
+HSTPT_num1,glu__L_c + imacp_c --> akg_c + hisp_c,Cgl0218,9.5,eQuilibrator_API
+IGPDH,eig3p_c --> h2o_c + imacp_c,Cgl2100,-41.9,eQuilibrator_API
+PRMICI,prfp_c --> prlp_c,Cgl2096,-9.8,eQuilibrator_API
+PRPPS,atp_c + r5p_c --> amp_c + h_c + prpp_c,Cgl0942,-1.4,eQuilibrator_API
+COBALT2abcpp,atp_c + cobalt2_e + h2o_c --> adp_c + cobalt2_c + h_c + pi_c,Cgl0061,-30.61,eQuilibrator_API
+FE3abcpp_num1,atp_c + fe3_e + h2o_c --> adp_c + fe3_c + h_c + pi_c,Cgl0336 and Cgl0036 and Cgl0038,-30.61,eQuilibrator_API
+FEROpp,4.0 fe2_c + 4.0 h_c + o2_c --> 4.0 fe3_c + 2.0 h2o_c,Cgl2526,-28.0,eQuilibrator_API
+Kabcpp_num1,atp_c + h2o_c + k_e --> adp_c + h_c + k_c + pi_c,Cgl0777,-30.61,eQuilibrator_API
+MG2uabcpp,atp_c + h2o_c + mg2_e --> adp_c + h_c + mg2_c + pi_c,,-30.61,eQuilibrator_API
+NI2uabcpp,atp_c + h2o_c + ni2_e --> adp_c + h_c + ni2_c + pi_c,,-30.61,eQuilibrator_API
+PIuabcpp,atp_c + h2o_c + pi_e --> adp_c + h_c + 2.0 pi_c,Cgl2575 and Cgl2572 and Cgl2573 and Cgl2574,-30.61,eQuilibrator_API
+SO3TRDRD,aps_c + trdrd_c --> amp_c + 2.0 h_c + so3_c + trdox_c,,-41.0,eQuilibrator_API
+SULabcpp,atp_c + h2o_c + so4_e --> adp_c + h_c + pi_c + so4_c,Cgl0213 and Cgl0214,-30.61,eQuilibrator_API
+ZN2abcpp_num1,atp_c + h2o_c + zn2_c --> adp_c + h_c + pi_c + zn2_e,Cgl0027 and Cgl0028 and Cgl0029,-30.61,eQuilibrator_API
+ZNabcpp,atp_c + h2o_c + zn2_e --> adp_c + h_c + pi_c + zn2_c,,-30.61,eQuilibrator_API
+MI1PS,g6p_c --> mi3p__D_c,Cgl2996,-60.0,eQuilibrator_API
+MI2DH_num1,inost_c + nad_c --> 2ins_c + h_c + nadh_c,Cgl0164,-6.7,eQuilibrator_API
+MI2DHT,2ins_c --> h2o_c + thcd_c,Cgl0163,-6.7,eQuilibrator_API
+THCDH,h2o_c + thcd_c --> d5dg_c,Cgl0162,-6.7,eQuilibrator_API
+ACACT1r,2.0 accoa_c --> aacoa_c + coa_c,Cgl2392,25.2,eQuilibrator_API
+ACCOAC_num1,accoa_c + atp_c + hco3_c --> adp_c + h_c + malcoa_c + pi_c,Cgl0831,-10.1,eQuilibrator_API
+ACOAD1f,btcoa_c + fad_c --> b2coa_c + fadh2_c,Cgl0288,36.0,eQuilibrator_API
+ACOAD3f,fad_c + occoa_c --> fadh2_c + oc2coa_c,Cgl0288,41.4,eQuilibrator_API
+ACOAD5f,ddcacoa_c + fad_c --> dd2coa_c + fadh2_c,Cgl0288,41.4,eQuilibrator_API
+ACOAD6f,fad_c + tdcoa_c --> fadh2_c + td2coa_c,Cgl0288,41.4,eQuilibrator_API
+ACOAD7f,fad_c + pmtcoa_c --> fadh2_c + hdd2coa_c,Cgl0288,44.9,eQuilibrator_API
+ACOAD8f,fad_c + stcoa_c --> fadh2_c + od2coa_c,Cgl0288,41.4,eQuilibrator_API
+ACHACB,achms_c + ch4s_c --> ac_c + hcys__L_c,Cgl0653,-176.8,eQuilibrator_API
+AHCYSNS,ahcys_c + h2o_c --> ade_c + rhcys_c,Cgl2802,-16.4,eQuilibrator_API
+CYSTL,cyst__L_c + h2o_c --> hcys__L_c + nh4_c + pyr_c,Cgl2309,0.7,eQuilibrator_API
+HSST_num1,accoa_c + hom__L_c --> achms_c + coa_c,Cgl0652,-28.0,eQuilibrator_API
+SHSL1_num1,cys__L_c + suchms_c --> cyst__L_c + h_c + succ_c,Cgl2446,-66.0,eQuilibrator_API
+GLYOX,h2o_c + lgt_S_c --> gthrd_c + h_c + lac__D_c,Cgl0052,-66.0,eQuilibrator_API
+LGTHL,gthrd_c + mthgxl_c --> lgt_S_c,Cgl0940,-66.0,eQuilibrator_API
+NHFRBO_num1,h_c + nadh_c + 2.0 no_c --> h2o_c + n2o_c + nad_c,Cgl2709,-285.0,eQuilibrator_API
+NO3R1bpp,no3_e + q8h2_c --> h2o_e + no2_e + q8_c,Cgl1186 and Cgl1187 and Cgl1188 and Cgl1189,-5.0,eQuilibrator_API
+NO3R2bpp,mql8_c + no3_e --> h2o_e + mqn8_c + no2_e,Cgl1186 and Cgl1187 and Cgl1188 and Cgl1189,-112.0,eQuilibrator_API
+NTRIR3pp,2.0 h_e + no2_e + 3.0 q8h2_c --> 2.0 h2o_e + nh4_e + 3.0 q8_c,,18.0,eQuilibrator_API
+NTRIR4pp,2.0 h_e + 3.0 mql8_c + no2_e --> 2.0 h2o_e + 3.0 mqn8_c + nh4_e,,-305.0,eQuilibrator_API
+3NTD2pp,3ump_c + h2o_c --> pi_c + uri_c,,-13.9,eQuilibrator_API
+3NTD4pp,3cmp_c + h2o_c --> cytd_c + pi_c,,-22.6,eQuilibrator_API
+3NTD7pp,3amp_c + h2o_c --> adn_c + pi_c,Cgl0328,-18.1,eQuilibrator_API
+3NTD9pp,3gmp_c + h2o_c --> gsn_c + pi_c,Cgl0328,-13.7,eQuilibrator_API
+ADK1,amp_c + atp_c --> 2.0 adp_c,Cgl0556,0.52,eQuilibrator_API
+ADK2,atp_c + damp_c --> adp_c + dadp_c,Cgl0556,3.4,eQuilibrator_API
+ADK3,amp_c + gtp_c --> adp_c + gdp_c,Cgl0315,2.7,eQuilibrator_API
+ADK4,amp_c + itp_c --> adp_c + idp_c,Cgl0315,-0.7,eQuilibrator_API
+ADNCYC,atp_c --> camp_c + ppi_c,Cgl0311,-1.2,eQuilibrator_API
+ADNK1,adn_c + atp_c --> adp_c + amp_c + h_c,Cgl0556,-15.9,eQuilibrator_API
+ADPRDP,adprib_c + h2o_c --> amp_c + 2.0 h_c + r5p_c,Cgl1418,-33.1,eQuilibrator_API
+ADPT,ade_c + prpp_c --> amp_c + ppi_c,Cgl1654,-24.4,eQuilibrator_API
+AMPN,amp_c + h2o_c --> ade_c + r5p_c,Cgl0095,-20.2,eQuilibrator_API
+ATPHs,atp_c + h2o_c + h_c --> itp_c + nh4_c,,-51.1,eQuilibrator_API
+CYTDK2,cytd_c + gtp_c --> cmp_c + gdp_c + h_c,,-14.3,eQuilibrator_API
+CYTK1,atp_c + cmp_c --> adp_c + cdp_c,Cgl1427,2.0,eQuilibrator_API
+CYTK2,atp_c + dcmp_c --> adp_c + dcdp_c,Cgl1427,2.0,eQuilibrator_API
+DCTPD_num1,dctp_c + h2o_c + h_c --> dutp_c + nh4_c,Cgl2848,-29.4,eQuilibrator_API
+DGK1,atp_c + dgmp_c --> adp_c + dgdp_c,Cgl1606,5.3,eQuilibrator_API
+DTMPK,atp_c + dtmp_c --> adp_c + dtdp_c,Cgl0753,-2.3,eQuilibrator_API
+DURIK1,atp_c + duri_c --> adp_c + dump_c + h_c,,-17.1,eQuilibrator_API
+DUTPDP,dutp_c + h2o_c --> dump_c + h_c + ppi_c,Cgl1905,-44.9,eQuilibrator_API
+GK1,atp_c + gmp_c --> adp_c + gdp_c,Cgl1606,-0.1,eQuilibrator_API
+GP4GH,gp4g_c + h2o_c --> 2.0 gdp_c + 2.0 h_c,Cgl1002 and Cgl1003,-55.0,eQuilibrator_API
+GSNHYDRO_num1,gsn_c + h2o_c --> gua_c + rib__D_c,Cgl1143,-2.6,eQuilibrator_API
+GSNK,atp_c + gsn_c --> adp_c + gmp_c + h_c,,-22.8,eQuilibrator_API
+GUAPRT,gua_c + prpp_c --> gmp_c + ppi_c,Cgl2697,-34.7,eQuilibrator_API
+HXPRT_num1,hxan_c + prpp_c --> imp_c + ppi_c,Cgl2698,-32.1,eQuilibrator_API
+INSH,h2o_c + ins_c --> hxan_c + rib__D_c,Cgl2835,-7.5,eQuilibrator_API
+NDPK1,atp_c + gdp_c --> adp_c + gtp_c,Cgl2370,-2.2,eQuilibrator_API
+NDPK2,atp_c + udp_c --> adp_c + utp_c,Cgl2370,0.5,eQuilibrator_API
+NDPK3,atp_c + cdp_c --> adp_c + ctp_c,Cgl2370,0.3,eQuilibrator_API
+NDPK4,atp_c + dtdp_c --> adp_c + dttp_c,Cgl2370,0.8,eQuilibrator_API
+NDPK5,atp_c + dgdp_c --> adp_c + dgtp_c,Cgl2370,1.7,eQuilibrator_API
+NDPK6,atp_c + dudp_c --> adp_c + dutp_c,Cgl2370,-1.1,eQuilibrator_API
+NDPK7,atp_c + dcdp_c --> adp_c + dctp_c,Cgl2370,3.8,eQuilibrator_API
+NDPK8,atp_c + dadp_c --> adp_c + datp_c,Cgl2370,2.5,eQuilibrator_API
+NNATr,atp_c + h_c + nicrnt_c --> dnad_c + ppi_c,Cgl2352,-25.0,eQuilibrator_API
+NTD1,dump_c + h2o_c --> duri_c + pi_c,Cgl0328,-13.5,eQuilibrator_API
+NTD10,h2o_c + xmp_c --> pi_c + xtsn_c,Cgl0328,-11.7,eQuilibrator_API
+NTD11,h2o_c + imp_c --> ins_c + pi_c,Cgl0328,-5.6,eQuilibrator_API
+NTD12,dimp_c + h2o_c --> din_c + pi_c,Cgl0328,-17.4,eQuilibrator_API
+NTD2,h2o_c + ump_c --> pi_c + uri_c,Cgl0328,-9.0,eQuilibrator_API
+NTD3,dcmp_c + h2o_c --> dcyt_c + pi_c,Cgl0328,-16.6,eQuilibrator_API
+NTD4,cmp_c + h2o_c --> cytd_c + pi_c,Cgl0328,-14.1,eQuilibrator_API
+NTD5,dtmp_c + h2o_c --> pi_c + thymd_c,Cgl0328,-9.4,eQuilibrator_API
+NTD6,damp_c + h2o_c --> dad_2_c + pi_c,Cgl0328,-16.3,eQuilibrator_API
+NTD7,amp_c + h2o_c --> adn_c + pi_c,Cgl0328,-14.7,eQuilibrator_API
+NTD8,dgmp_c + h2o_c --> dgsn_c + pi_c,Cgl0328,-14.4,eQuilibrator_API
+NTD9,gmp_c + h2o_c --> gsn_c + pi_c,Cgl0328,-7.8,eQuilibrator_API
+NTPP1,dgtp_c + h2o_c --> dgmp_c + h_c + ppi_c,Cgl2500,-52.5,eQuilibrator_API
+NTPP10,ditp_c + h2o_c --> dimp_c + h_c + ppi_c,Cgl2500,-58.2,eQuilibrator_API
+NTPP11,h2o_c + xtp_c --> h_c + ppi_c + xmp_c,Cgl2500,-58.2,eQuilibrator_API
+NTPP3,dctp_c + h2o_c --> dcmp_c + h_c + ppi_c,Cgl2500,-51.4,eQuilibrator_API
+NTPP4,ctp_c + h2o_c --> cmp_c + h_c + ppi_c,Cgl2500,-47.8,eQuilibrator_API
+NTPP5,datp_c + h2o_c --> damp_c + h_c + ppi_c,Cgl2500,-51.3,eQuilibrator_API
+NTPP9,h2o_c + itp_c --> h_c + imp_c + ppi_c,Cgl2500,-22.7,eQuilibrator_API
+RNDR1,adp_c + trdrd_c --> dadp_c + h2o_c + trdox_c,Cgl2525 and Cgl2530,-43.0,eQuilibrator_API
+RNDR2,gdp_c + trdrd_c --> dgdp_c + h2o_c + trdox_c,Cgl2525 and Cgl2530,-39.1,eQuilibrator_API
+RNDR3,cdp_c + trdrd_c --> dcdp_c + h2o_c + trdox_c,Cgl2525 and Cgl2530,-39.8,eQuilibrator_API
+RNDR4,trdrd_c + udp_c --> dudp_c + h2o_c + trdox_c,Cgl2525 and Cgl2530,-43.7,eQuilibrator_API
+TMDS,dump_c + mlthf_c --> dhf_c + dtmp_c,Cgl0844,-45.3,eQuilibrator_API
+UMPK,atp_c + ump_c --> adp_c + udp_c,Cgl2024,0.4,eQuilibrator_API
+UPPRT_num1,prpp_c + ura_c --> ppi_c + ump_c,Cgl0684,-24.0,eQuilibrator_API
+URIDK2r,atp_c + dump_c --> adp_c + dudp_c,Cgl0753,0.6,eQuilibrator_API
+XTSNH_num1,h2o_c + xtsn_c --> rib__D_c + xan_c,Cgl1391,-3.7,eQuilibrator_API
+NTP1,atp_c + h2o_c --> adp_c + h_c + pi_c,,-30.61,eQuilibrator_API
+NTP10,h2o_c + itp_c --> h_c + idp_c + pi_c,,-31.9,eQuilibrator_API
+NTP11,ditp_c + h2o_c --> didp_c + h_c + pi_c,,-37.8,eQuilibrator_API
+NTP12,h2o_c + xtp_c --> h_c + pi_c + xdp_c,,-37.8,eQuilibrator_API
+NTP3,gtp_c + h2o_c --> gdp_c + h_c + pi_c,,-28.4,eQuilibrator_API
+NTP5,ctp_c + h2o_c --> cdp_c + h_c + pi_c,,-30.9,eQuilibrator_API
+NTPP2,gtp_c + h2o_c --> gmp_c + h_c + ppi_c,Cgl2500,-43.1,eQuilibrator_API
+NTPP6,atp_c + h2o_c --> amp_c + h_c + ppi_c,Cgl2500,-46.0,eQuilibrator_API
+NTPP7,dttp_c + h2o_c --> dtmp_c + h_c + ppi_c,Cgl2500,-44.1,eQuilibrator_API
+NTPP8,h2o_c + utp_c --> h_c + ppi_c + ump_c,Cgl2500,-46.0,eQuilibrator_API
+ATPS4rpp,adp_c + 4.0 h_e + pi_c --> atp_c + h2o_c + 3.0 h_c,Cgl1213 and Cgl1211 and Cgl1210 and Cgl1208 and Cgl1212 and Cgl1209 and Cgl1207 and Cgl1206,-30.6,Manual
+CAT,2.0 h2o2_c --> 2.0 h2o_c + o2_c,Cgl0255,-192.0,eQuilibrator_API
+CRNCAL2,atp_c + coa_c + crn_c --> adp_c + crncoa_c + pi_c,Cgl1198,5.4,eQuilibrator_API
+CRNDCAL2,atp_c + coa_c + crn__D_c --> adp_c + crnDcoa_c + pi_c,Cgl1198,8.1,eQuilibrator_API
+CTBTCAL2,atp_c + coa_c + ctbt_c --> adp_c + ctbtcoa_c + pi_c,Cgl1198,-347.7,eQuilibrator_API
+CYTBD2pp,2.0 h_c + mql8_c + 0.5 o2_c --> h2o_c + 2.0 h_e + mqn8_c,Cgl2194 and Cgl2523 and Cgl2195 and Cgl2192,-201.0,eQuilibrator_API
+CYTBDpp,2.0 h_c + 0.5 o2_c + q8h2_c --> h2o_c + 2.0 h_e + q8_c,Cgl2194 and Cgl2523 and Cgl2195 and Cgl2192,-94.0,eQuilibrator_API
+CYTBO3_4pp,4.0 h_c + 0.5 o2_c + q8h2_c --> h2o_c + 4.0 h_e + q8_c,Cgl2194 and Cgl2523 and Cgl2195 and Cgl2192,-94.0,eQuilibrator_API
+DMSOR1pp,dmso_e + mql8_c --> dms_e + h2o_e + mqn8_c,,-224.0,eQuilibrator_API
+DMSOR2pp,2dmmql8_c + dmso_e --> 2dmmq8_c + dms_e + h2o_e,,-202.0,eQuilibrator_API
+FDH4pp_num1,for_e + 2.0 h_c + q8_c --> co2_c + h_e + q8h2_c,Cgl0527,-145.0,eQuilibrator_API
+FDH5pp_num1,for_e + 2.0 h_c + mqn8_c --> co2_c + h_e + mql8_c,Cgl0527,-37.0,eQuilibrator_API
+G3PD5,glyc3p_c + q8_c --> dhap_c + q8h2_c,Cgl1646,-109.0,eQuilibrator_API
+G3PD6,glyc3p_c + mqn8_c --> dhap_c + mql8_c,,-1.0,eQuilibrator_API
+G3PD7,2dmmq8_c + glyc3p_c --> 2dmmql8_c + dhap_c,,-24.0,eQuilibrator_API
+HYD1pp,h2_c + 2.0 h_c + q8_c --> 2.0 h_e + q8h2_c,,-170.0,eQuilibrator_API
+HYD2pp,h2_c + 2.0 h_c + mqn8_c --> 2.0 h_e + mql8_c,,-63.0,eQuilibrator_API
+HYD3pp,2dmmq8_c + h2_c + 2.0 h_c --> 2dmmql8_c + 2.0 h_e,,-85.0,eQuilibrator_API
+LDH_D2,lac__D_c + q8_c --> pyr_c + q8h2_c,Cgl0901,-111.0,eQuilibrator_API
+NADH10,h_c + mqn8_c + nadh_c --> mql8_c + nad_c,Cgl1465,-23.0,eQuilibrator_API
+NADH16pp,4.0 h_c + nadh_c + q8_c --> 3.0 h_e + nad_c + q8h2_c,Cgl2729 and Cgl2731 and Cgl0269,-131.0,eQuilibrator_API
+NADH17pp,4.0 h_c + mqn8_c + nadh_c --> 3.0 h_e + mql8_c + nad_c,Cgl2729 and Cgl2731 and Cgl0269,-23.0,eQuilibrator_API
+NADH18pp,2dmmq8_c + 4.0 h_c + nadh_c --> 2dmmql8_c + 3.0 h_e + nad_c,Cgl2729 and Cgl2731 and Cgl0269,-45.0,eQuilibrator_API
+NADH5,h_c + nadh_c + q8_c --> nad_c + q8h2_c,Cgl0335,-131.0,eQuilibrator_API
+NADH9,2dmmq8_c + h_c + nadh_c --> 2dmmql8_c + nad_c,,-45.0,eQuilibrator_API
+NADPHQR2_num1,h_c + nadph_c + q8_c --> nadp_c + q8h2_c,Cgl1572,-131.0,eQuilibrator_API
+NADPHQR3_num1,h_c + mqn8_c + nadph_c --> mql8_c + nadp_c,Cgl1572,-23.0,eQuilibrator_API
+NADPHQR4_num1,2dmmq8_c + h_c + nadph_c --> 2dmmql8_c + nadp_c,Cgl1572,-46.0,eQuilibrator_API
+NO3R1pp,2.0 h_c + no3_c + q8h2_c --> h2o_c + 2.0 h_e + no2_c + q8_c,Cgl1186 and Cgl1187 and Cgl1188 and Cgl1189,-5.0,eQuilibrator_API
+NO3R2pp,2.0 h_c + mql8_c + no3_c --> h2o_c + 2.0 h_e + mqn8_c + no2_c,,-112.0,eQuilibrator_API
+NTRIR2x,5.0 h_c + 3.0 nadh_c + no2_c --> 2.0 h2o_c + 3.0 nad_c + nh4_c,,-374.0,eQuilibrator_API
+POX,h2o_c + pyr_c + q8_c --> ac_c + co2_c + q8h2_c,Cgl2610,-201.0,eQuilibrator_API
+PPKr,atp_c + pi_c --> adp_c + ppi_c,,-14.87,eQuilibrator_API
+SUCDi,q8_c + succ_c --> fum_c + q8h2_c,,-74.0,eQuilibrator_API
+TMAOR1pp,h_e + mql8_c + tmao_e --> h2o_e + mqn8_c + tma_e,,-214.0,eQuilibrator_API
+TMAOR2pp,2dmmql8_c + h_e + tmao_e --> 2dmmq8_c + h2o_e + tma_e,,-191.0,eQuilibrator_API
+TRDR,h_c + nadph_c + trdox_c --> nadp_c + trdrd_c,Cgl3090 and Cgl2976,-6.4,eQuilibrator_API
+L_LACD2,lac__L_c + q8_c --> pyr_c + q8h2_c,Cgl2918,-108.0,eQuilibrator_API
+G6PDH2r,g6p_c + nadp_c --> 6pgl_c + h_c + nadph_c,Cgl1576,-7.6,eQuilibrator_API
+GND,6pgc_c + nadp_c --> co2_c + nadph_c + ru5p__D_c,Cgl1452,10.4,eQuilibrator_API
+PGL,6pgl_c + h2o_c --> 6pgc_c + h_c,Cgl1578,-26.3,eQuilibrator_API
+RPE,ru5p__D_c --> xu5p__D_c,Cgl1598,-3.4,eQuilibrator_API
+RPI,r5p_c --> ru5p__D_c,Cgl2423,4.5,eQuilibrator_API
+TALA,g3p_c + s7p_c --> e4p_c + f6p_c,Cgl1575,-1.2,eQuilibrator_API
+TKT1,r5p_c + xu5p__D_c --> g3p_c + s7p_c,Cgl1574,-1.5,eQuilibrator_API
+TKT2,e4p_c + xu5p__D_c --> f6p_c + g3p_c,Cgl1575,-10.5,eQuilibrator_API
+ADSL1r,dcamp_c --> amp_c + fum_c,Cgl2598,17.0,eQuilibrator_API
+ADSL2r,25aics_c --> aicar_c + fum_c,Cgl2598,24.8,eQuilibrator_API
+ADSS,asp__L_c + gtp_c + imp_c --> dcamp_c + gdp_c + 2.0 h_c + pi_c,Cgl2766,-3.8,eQuilibrator_API
+AICART,10fthf_c + aicar_c --> fprica_c + thf_c,Cgl0861,14.0,eQuilibrator_API
+ASPCT,asp__L_c + cbp_c --> cbasp_c + h_c + pi_c,Cgl1612,-23.0,eQuilibrator_API
+CTPS2,atp_c + gln__L_c + h2o_c + utp_c --> adp_c + ctp_c + glu__L_c + 2.0 h_c + pi_c,Cgl1417,-24.4,eQuilibrator_API
+DHORD2,dhor__S_c + q8_c --> orot_c + q8h2_c,Cgl1518,-125.0,eQuilibrator_API
+DHORD5,dhor__S_c + mqn8_c --> mql8_c + orot_c,Cgl1518,-18.0,eQuilibrator_API
+DHORTS,dhor__S_c + h2o_c --> cbasp_c + h_c,Cgl1612,-8.4,eQuilibrator_API
+GARFT,10fthf_c + gar_c --> fgam_c + h_c + thf_c,Cgl0860 and Cgl2759,1.0,eQuilibrator_API
+GART,atp_c + for_c + gar_c --> adp_c + fgam_c + h_c + pi_c,,-4.0,eQuilibrator_API
+GLUPRT,gln__L_c + h2o_c + prpp_c --> glu__L_c + ppi_c + pram_c,Cgl2584,-67.7,eQuilibrator_API
+IMPC,h2o_c + imp_c --> fprica_c,,20.0,eQuilibrator_API
+IMPD_num1,h2o_c + imp_c + nad_c --> h_c + nadh_c + xmp_c,Cgl0603,15.0,eQuilibrator_API
+OMPDC,h_c + orot5p_c --> co2_c + ump_c,Cgl1608,-22.0,eQuilibrator_API
+ORPT,orot5p_c + ppi_c --> orot_c + prpp_c,Cgl2773,-1.7,eQuilibrator_API
+PRAGSr,atp_c + gly_c + pram_c --> adp_c + gar_c + h_c + pi_c,Cgl2600,-27.5,eQuilibrator_API
+PRASCSi,5aizc_c + asp__L_c + atp_c --> 25aics_c + adp_c + h_c + pi_c,Cgl2597,-80.0,eQuilibrator_API
+ACALD,acald_c + coa_c + nad_c --> accoa_c + h_c + nadh_c,Cgl0319,-22.3,eQuilibrator_API
+ACKr,ac_c + atp_c --> actp_c + adp_c,Cgl2752,14.6,eQuilibrator_API
+ALCD2x_num1,etoh_c + nad_c --> acald_c + h_c + nadh_c,Cgl2807,16.98,eQuilibrator_API
+FHL,for_c + h_c --> co2_c + h2_c,Cgl1512 and Cgl2570 and Cgl2355,26.0,eQuilibrator_API
+LDH_D,lac__D_c + nad_c --> h_c + nadh_c + pyr_c,Cgl0901,19.5,eQuilibrator_API
+OAADC,h_c + oaa_c --> co2_c + pyr_c,,-13.3,eQuilibrator_API
+PTAr,accoa_c + pi_c --> actp_c + coa_c,Cgl2753,9.4,eQuilibrator_API
+LDH,h_c + nadh_c + pyr_c --> lac__L_c + nad_c,Cgl2911,-22.6,eQuilibrator_API
+ASAD,aspsa_c + nadp_c + pi_c --> 4pasp_c + h_c + nadph_c,Cgl0252,-25.4,eQuilibrator_API
+ASPK,asp__L_c + atp_c --> 4pasp_c + adp_c,Cgl0251,21.8,eQuilibrator_API
+DAPDC_num1,26dap__M_c + h_c --> co2_c + lys__L_c,Cgl1180,-14.0,eQuilibrator_API
+DAPDH,2.0 h_c + nadph_c + nh4_c + thdp_c --> 26dap__M_c + nadp_c,Cgl2617,30.0,eQuilibrator_API
+DAPE,26dap_LL_c --> 26dap__M_c,Cgl1943,-1.7,eQuilibrator_API
+DHDPRy,23dhdp_c + h_c + nadph_c --> nadp_c + thdp_c,Cgl1973,-20.0,eQuilibrator_API
+DHDPS,aspsa_c + pyr_c --> 23dhdp_c + 2.0 h2o_c + h_c,Cgl1971,-129.0,eQuilibrator_API
+HSDy,hom__L_c + nadp_c --> aspsa_c + h_c + nadph_c,Cgl1183,18.6,eQuilibrator_API
+HSK,atp_c + hom__L_c --> adp_c + h_c + phom_c,Cgl1183 and Cgl1184,-40.0,eQuilibrator_API
+SDPDS,h2o_c + sl26da_c --> 26dap_LL_c + succ_c,Cgl1109,8.0,eQuilibrator_API
+SDPTA,akg_c + sl26da_c --> glu__L_c + sl2a6o_c,Cgl0814,-1.3,eQuilibrator_API
+THDPS_num1,h2o_c + succoa_c + thdp_c --> coa_c + sl2a6o_c,Cgl1106,26.0,eQuilibrator_API
+THRS,h2o_c + phom_c --> pi_c + thr__L_c,Cgl2220,-29.7,eQuilibrator_API
+ACGAptspp,acgam_e + pep_c --> acgam6p_c + pyr_c,Cgl3036,-37.4,eQuilibrator_API
+ACMANAptspp_num1,acmana_e + pep_c --> acmanap_c + pyr_c,Cgl1933,-38.9,eQuilibrator_API
+ACMUMptspp_num1,acmum_e + pep_c --> acmum6p_c + pyr_c,Cgl1933,-42.4,eQuilibrator_API
+ALAabcpp,ala__L_e + atp_c + h2o_c --> adp_c + ala__L_c + h_c + pi_c,Cgl0407,-30.61,eQuilibrator_API
+ALAALAabcpp,alaala_e + atp_c + h2o_c --> adp_c + alaala_c + h_c + pi_c,,-30.61,eQuilibrator_API
+ARBabcpp,arab__L_e + atp_c + h2o_c --> adp_c + arab__L_c + h_c + pi_c,Cgl0288 and Cgl0407,-30.61,eQuilibrator_API
+ARBTptspp,arbt_e + pep_c --> arbt6p_c + pyr_c,Cgl2470,-39.9,eQuilibrator_API
+ARGabcpp,arg__L_e + atp_c + h2o_c --> adp_c + arg__L_c + h_c + pi_c,,-30.61,eQuilibrator_API
+ASCBptspp,ascb__L_e + pep_c --> ascb6p_c + pyr_c,Cgl2470,-39.8,eQuilibrator_API
+ASNabcpp,asn__L_e + atp_c + h2o_c --> adp_c + asn__L_c + h_c + pi_c,,-30.61,eQuilibrator_API
+ASPabcpp,asp__L_e + atp_c + h2o_c --> adp_c + asp__L_c + h_c + pi_c,,-30.61,eQuilibrator_API
+CGLYabcpp,atp_c + cgly_e + h2o_c --> adp_c + cgly_c + h_c + pi_c,,-30.61,eQuilibrator_API
+CRNabcpp,atp_c + crn_e + h2o_c --> adp_c + crn_c + h_c + pi_c,,-30.61,eQuilibrator_API
+CRNDabcpp,atp_c + crn__D_e + h2o_c --> adp_c + crn__D_c + h_c + pi_c,,-30.61,eQuilibrator_API
+CTBTabcpp,atp_c + ctbt_e + h2o_c --> adp_c + ctbt_c + h_c + pi_c,,-30.61,eQuilibrator_API
+CYSabc2pp,atp_c + cys__L_c + h2o_c --> adp_c + cys__L_e + h_c + pi_c,,-30.61,eQuilibrator_API
+CYSabcpp,atp_c + cys__L_e + h2o_c --> adp_c + cys__L_c + h_c + pi_c,,-30.61,eQuilibrator_API
+DAPabcpp,26dap__M_e + atp_c + h2o_c --> 26dap__M_c + adp_c + h_c + pi_c,,-30.61,eQuilibrator_API
+FRUpts2pp,fru_e + pep_c --> f6p_c + pyr_c,Cgl1933,-43.1,eQuilibrator_API
+G3PCabcpp,atp_c + g3pc_e + h2o_c --> adp_c + g3pc_c + h_c + pi_c,Cgl1383 and Cgl1384 and Cgl1385 and Cgl1386,-30.61,eQuilibrator_API
+G3PEabcpp,atp_c + g3pe_e + h2o_c --> adp_c + g3pe_c + h_c + pi_c,Cgl1383 and Cgl1384 and Cgl1385 and Cgl1386,-30.61,eQuilibrator_API
+G3PGabcpp,atp_c + g3pg_e + h2o_c --> adp_c + g3pg_c + h_c + pi_c,Cgl1383 and Cgl1384 and Cgl1385 and Cgl1386,-30.61,eQuilibrator_API
+G3PIabcpp,atp_c + g3pi_e + h2o_c --> adp_c + g3pi_c + h_c + pi_c,Cgl1383 and Cgl1384 and Cgl1385 and Cgl1386,-30.61,eQuilibrator_API
+G3PSabcpp,atp_c + g3ps_e + h2o_c --> adp_c + g3ps_c + h_c + pi_c,Cgl1383 and Cgl1384 and Cgl1385 and Cgl1386,-30.61,eQuilibrator_API
+GALTptspp,galt_e + pep_c --> galt1p_c + pyr_c,Cgl1933,-43.7,eQuilibrator_API
+GAMptspp,gam_e + pep_c --> gam6p_c + pyr_c,Cgl1933,-37.3,eQuilibrator_API
+GLCabcpp,atp_c + glc__D_e + h2o_c --> adp_c + glc__D_c + h_c + pi_c,Cgl0030 and Cgl0031 and Cgl0032,-30.61,eQuilibrator_API
+GLCptspp,glc__D_e + pep_c --> g6p_c + pyr_c,Cgl3036,-45.7,eQuilibrator_API
+GLNabcpp,atp_c + gln__L_e + h2o_c --> adp_c + gln__L_c + h_c + pi_c,,-30.61,eQuilibrator_API
+GLUabcpp,atp_c + glu__L_e + h2o_c --> adp_c + glu__L_c + h_c + pi_c,Cgl1951 and Cgl1950 and Cgl1952 and Cgl1953,-30.61,eQuilibrator_API
+GLYBabcpp_num1,atp_c + glyb_e + h2o_c --> adp_c + glyb_c + h_c + pi_c,Cgl0892,-30.61,eQuilibrator_API
+GLYC2Pabcpp,atp_c + glyc2p_e + h2o_c --> adp_c + glyc2p_c + h_c + pi_c,Cgl1383 and Cgl1384 and Cgl1385 and Cgl1386,-30.61,eQuilibrator_API
+GLYC3Pabcpp,atp_c + glyc3p_e + h2o_c --> adp_c + glyc3p_c + h_c + pi_c,Cgl1383 and Cgl1384 and Cgl1385 and Cgl1386,-30.61,eQuilibrator_API
+GTHRDabc2pp,atp_c + gthrd_c + h2o_c --> adp_c + gthrd_e + h_c + pi_c,Cgl1993 and Cgl2320 and Cgl2321 and Cgl2322,-30.61,eQuilibrator_API
+GTHRDabcpp,atp_c + gthrd_e + h2o_c --> adp_c + gthrd_c + h_c + pi_c,,-30.61,eQuilibrator_API
+HISabcpp,atp_c + h2o_c + his__L_e --> adp_c + h_c + his__L_c + pi_c,,-30.61,eQuilibrator_API
+LYSabcpp,atp_c + h2o_c + lys__L_e --> adp_c + h_c + lys__L_c + pi_c,Cgl1262,-30.61,eQuilibrator_API
+MALTabcpp,atp_c + h2o_c + malt_e --> adp_c + h_c + malt_c + pi_c,Cgl2460 and Cgl2461 and Cgl2463,-30.61,eQuilibrator_API
+MALTptspp,malt_e + pep_c --> malt6p_c + pyr_c,Cgl1933,-39.5,eQuilibrator_API
+MANptspp,man_e + pep_c --> man6p_c + pyr_c,Cgl1360,-44.5,eQuilibrator_API
+METabcpp,atp_c + h2o_c + met__L_e --> adp_c + h_c + met__L_c + pi_c,Cgl0635 and Cgl0636 and Cgl0637,-30.61,eQuilibrator_API
+MNLptspp,mnl_e + pep_c --> mnl1p_c + pyr_c,Cgl3036,-43.0,eQuilibrator_API
+NMNt7pp,h2o_c + nmn_e --> h_c + ncam_c + r5p_c,,-31.0,eQuilibrator_API
+ORNabcpp,atp_c + h2o_c + orn_e --> adp_c + h_c + orn_c + pi_c,,-30.61,eQuilibrator_API
+PA120abcpp_num1,atp_c + h2o_c + pa120_c --> adp_c + h_c + pa120_e + pi_c,Cgl1221 and Cgl1222 and Cgl1223,-30.61,eQuilibrator_API
+PA140abcpp_num1,atp_c + h2o_c + pa140_c --> adp_c + h_c + pa140_e + pi_c,Cgl1221 and Cgl1222 and Cgl1223,-30.61,eQuilibrator_API
+PA141abcpp_num1,atp_c + h2o_c + pa141_c --> adp_c + h_c + pa141_e + pi_c,Cgl1221 and Cgl1222 and Cgl1223,-30.61,eQuilibrator_API
+PA160abcpp_num1,atp_c + h2o_c + pa160_c --> adp_c + h_c + pa160_e + pi_c,Cgl1221 and Cgl1222 and Cgl1223,-30.61,eQuilibrator_API
+PA161abcpp_num1,atp_c + h2o_c + pa161_c --> adp_c + h_c + pa161_e + pi_c,Cgl1221 and Cgl1222 and Cgl1223,-30.61,eQuilibrator_API
+PA180abcpp_num1,atp_c + h2o_c + pa180_c --> adp_c + h_c + pa180_e + pi_c,Cgl1221 and Cgl1222 and Cgl1223,-30.61,eQuilibrator_API
+PA181abcpp_num1,atp_c + h2o_c + pa181_c --> adp_c + h_c + pa181_e + pi_c,Cgl1221 and Cgl1222 and Cgl1223,-30.61,eQuilibrator_API
+PGP120abcpp_num1,atp_c + h2o_c + pgp120_c --> adp_c + h_c + pgp120_e + pi_c,Cgl1221 and Cgl1222 and Cgl1223,-30.61,eQuilibrator_API
+PGP140abcpp_num1,atp_c + h2o_c + pgp140_c --> adp_c + h_c + pgp140_e + pi_c,Cgl1221 and Cgl1222 and Cgl1223,-30.61,eQuilibrator_API
+PGP141abcpp_num1,atp_c + h2o_c + pgp141_c --> adp_c + h_c + pgp141_e + pi_c,Cgl1221 and Cgl1222 and Cgl1223,-30.61,eQuilibrator_API
+PGP160abcpp_num1,atp_c + h2o_c + pgp160_c --> adp_c + h_c + pgp160_e + pi_c,Cgl1221 and Cgl1222 and Cgl1223,-30.61,eQuilibrator_API
+PGP161abcpp_num1,atp_c + h2o_c + pgp161_c --> adp_c + h_c + pgp161_e + pi_c,Cgl1221 and Cgl1222 and Cgl1223,-30.61,eQuilibrator_API
+PGP180abcpp_num1,atp_c + h2o_c + pgp180_c --> adp_c + h_c + pgp180_e + pi_c,Cgl1221 and Cgl1222 and Cgl1223,-30.61,eQuilibrator_API
+PGP181abcpp_num1,atp_c + h2o_c + pgp181_c --> adp_c + h_c + pgp181_e + pi_c,Cgl1221 and Cgl1222 and Cgl1223,-30.61,eQuilibrator_API
+PHEMEabcpp_num1,atp_c + h2o_c + pheme_c --> adp_c + h_c + pheme_e + pi_c,Cgl1221 and Cgl1222 and Cgl1223,-30.61,eQuilibrator_API
+PROabcpp,atp_c + h2o_c + pro__L_e --> adp_c + h_c + pi_c + pro__L_c,Cgl1419,-30.61,eQuilibrator_API
+PROGLYabcpp,atp_c + h2o_c + progly_e --> adp_c + h_c + pi_c + progly_c,,-30.61,eQuilibrator_API
+RIBabcpp,atp_c + h2o_c + rib__D_e --> adp_c + h_c + pi_c + rib__D_c,Cgl1252 and Cgl1253 and Cgl1254,-30.61,eQuilibrator_API
+SBTptspp,pep_c + sbt__D_e --> pyr_c + sbt6p_c,Cgl3036,-45.8,eQuilibrator_API
+SERabcpp,atp_c + h2o_c + ser__L_e --> adp_c + h_c + pi_c + ser__L_c,,-30.61,eQuilibrator_API
+SPMDabcpp,atp_c + h2o_c + spmd_e --> adp_c + h_c + pi_c + spmd_c,Cgl0426 and Cgl0427 and Cgl0428,-30.61,eQuilibrator_API
+SUCptspp,pep_c + sucr_e --> pyr_c + suc6p_c,Cgl3036,-49.3,eQuilibrator_API
+THMabcpp,atp_c + h2o_c + thm_e --> adp_c + h_c + pi_c + thm_c,Cgl1078 and Cgl1079 and Cgl1080,-30.61,eQuilibrator_API
+THRabcpp,atp_c + h2o_c + thr__L_e --> adp_c + h_c + pi_c + thr__L_c,,-30.61,eQuilibrator_API
+TREabcpp,atp_c + h2o_c + tre_e --> adp_c + h_c + pi_c + tre_c,,-30.61,eQuilibrator_API
+TREptsp_num1,pep_c + tre_c --> pyr_c + tre6p_c,Cgl1933,-50.7,eQuilibrator_API
+TREptspp_num1,pep_c + tre_e --> pyr_c + tre6p_c,Cgl1933,-50.7,eQuilibrator_API
+TRPabcpp,atp_c + h2o_c + trp__L_e --> adp_c + h_c + pi_c + trp__L_c,,-30.61,eQuilibrator_API
+Biotinabcpp,atp_c + btn_c + h2o_c --> adp_c + btn_e + h_c + pi_c,,-30.61,eQuilibrator_API
+ANPRT,anth_c + prpp_c --> ppi_c + pran_c,Cgl3032,-65.0,eQuilibrator_API
+ANS,chor_c + gln__L_c --> anth_c + glu__L_c + h_c + pyr_c,Cgl3029 and Cgl3031,-111.0,eQuilibrator_API
+CHORM,chor_c --> pphn_c,Cgl0853,-49.0,eQuilibrator_API
+CHORS,3psme_c --> chor_c + pi_c,Cgl1623,-47.0,eQuilibrator_API
+DDPA,e4p_c + h2o_c + pep_c --> 2dda7p_c + pi_c,Cgl0990 and Cgl2178,-74.3,eQuilibrator_API
+DHQS,2dda7p_c --> 3dhq_c + pi_c,Cgl1621,-151.0,eQuilibrator_API
+DHQTi,3dhq_c --> 3dhsk_c + h2o_c,Cgl0423,-5.3,eQuilibrator_API
+IGPS,2cpr5p_c + h_c --> 3ig3p_c + co2_c + h2o_c,Cgl3033,-72.0,eQuilibrator_API
+PHETA1_num1,glu__L_c + phpyr_c --> akg_c + phe__L_c,Cgl0218,0.4,eQuilibrator_API
+PPND,nad_c + pphn_c --> 34hpp_c + co2_c + nadh_c,Cgl0226,-11.0,eQuilibrator_API
+PPNDH,h_c + pphn_c --> co2_c + h2o_c + phpyr_c,Cgl2899,-64.0,eQuilibrator_API
+PRAIi,pran_c --> 2cpr5p_c,Cgl3033,-9.8,eQuilibrator_API
+PSCVT,pep_c + skm5p_c --> 3psme_c + pi_c,Cgl0764,-15.9,eQuilibrator_API
+SHK3Dr_num1,3dhsk_c + h_c + nadph_c --> nadp_c + skm_c,Cgl1132,-5.7,eQuilibrator_API
+SHKK,atp_c + skm_c --> adp_c + h_c + skm5p_c,Cgl1622,-26.3,eQuilibrator_API
+TRPS1,3ig3p_c + ser__L_c --> g3p_c + h2o_c + trp__L_c,Cgl3034 and Cgl3035,-31.4,eQuilibrator_API
+TRPS2,indole_c + ser__L_c --> h2o_c + trp__L_c,Cgl3034 and Cgl3035,-50.6,eQuilibrator_API
+TRPS3,3ig3p_c --> g3p_c + indole_c,Cgl3034 and Cgl3035,19.2,eQuilibrator_API
+TYRRRpp,atp_c + h2o_c + tyr__L_e --> adp_c + h_c + pi_c + tyr__L_c,,-30.61,eQuilibrator_API
+TYRTA_num1,34hpp_c + glu__L_c --> akg_c + tyr__L_c,Cgl0218,-0.1,eQuilibrator_API
+INPSHE,2cpr5p_c --> 3ig3p_c + co2_c + h2o_c,Cgl3033,-72.0,eQuilibrator_API
+ATPM,atp_c + h2o_c --> adp_c + h_c + pi_c,,-30.61,eQuilibrator_API
+ACHBS,2obut_c + h_c + pyr_c --> 2ahbut_c + co2_c,Cgl1271 and Cgl1272,-17.0,eQuilibrator_API
+ACLS,h_c + 2.0 pyr_c --> alac__S_c + co2_c,Cgl1271 and Cgl1272,-25.0,eQuilibrator_API
+DHAD1,23dhmb_c --> 3mob_c + h2o_c,Cgl1268,-36.9,eQuilibrator_API
+DHAD2,23dhmp_c --> 3mop_c + h2o_c,Cgl1268,-36.9,eQuilibrator_API
+ILETA,3mop_c + glu__L_c --> akg_c + ile__L_c,Cgl2204,6.2,eQuilibrator_API
+IPMD,3c2hmp_c + nad_c --> 3c4mop_c + h_c + nadh_c,Cgl1286,14.5,eQuilibrator_API
+IPPMIa,3c2hmp_c --> 2ippm_c + h2o_c,Cgl1315 and Cgl1316,-3.7,eQuilibrator_API
+IPPMIb,2ippm_c + h2o_c --> 3c3hmp_c,Cgl1315 and Cgl1316,-0.4,eQuilibrator_API
+IPPS,3mob_c + accoa_c + h2o_c --> 3c3hmp_c + coa_c + h_c,Cgl0248,-27.0,eQuilibrator_API
+KARA1,23dhmb_c + nadp_c --> alac__S_c + h_c + nadph_c,Cgl1273,14.8,eQuilibrator_API
+KARA2,2ahbut_c + h_c + nadph_c --> 23dhmp_c + nadp_c,Cgl1273,-14.8,eQuilibrator_API
+OMCDC,3c4mop_c + h_c --> 4mop_c + co2_c,,-13.0,eQuilibrator_API
+THRD_L_num1,thr__L_c --> 2obut_c + nh4_c,Cgl0978,-24.0,eQuilibrator_API
+VALTA,3mob_c + glu__L_c --> akg_c + val__L_c,Cgl2204,-1.4,eQuilibrator_API
+ALATA_L_reverse,akg_c + ala__L_c --> glu__L_c + pyr_c,Cgl2844,-0.2,eQuilibrator_API
+ASPTA_reverse,glu__L_c + oaa_c --> akg_c + asp__L_c,Cgl0240,-2.8,eQuilibrator_API
+2METS_reverse,coa_c + hcat_c --> h2o_c + oaa_c + ppcoa_c,Cgl0659,-2.8,eQuilibrator_API
+ACHMSC_reverse,ac_c + cyst__L_c + h_c --> achms_c + cys__L_c,,74.0,eQuilibrator_API
+ALCD19_reverse_num1,glyc_c + nad_c --> glyald_c + h_c + nadh_c,Cgl0331,35.0,eQuilibrator_API
+AMANAPEr_reverse,acgam6p_c --> acmanap_c,Cgl2648,2.2,eQuilibrator_API
+APG_reverse,apg_c + cmp_c --> cdpdag_c + glyc3p_c,,2.2,eQuilibrator_API
+ARAI_reverse_num1,rbl__L_c --> arab__L_c,Cgl1023,-4.9,eQuilibrator_API
+CBMKr_reverse,adp_c + cbp_c + 2.0 h_c --> atp_c + co2_c + nh4_c,,-18.0,eQuilibrator_API
+DHACOAH_reverse,3hadpcoa_c --> 23dhacoa_c + h2o_c,Cgl0919,-0.4,eQuilibrator_API
+G3PD2_reverse,dhap_c + h_c + nadph_c --> glyc3p_c + nadp_c,Cgl1320,-21.8,eQuilibrator_API
+GLCATr_reverse,acglc__D_c + coa_c --> accoa_c + glc__D_c,Cgl0143,1.7,eQuilibrator_API
+GUI1_reverse,fruur_c --> glcur_c,Cgl2484,-0.6,eQuilibrator_API
+HCO3E_reverse,h_c + hco3_c --> co2_c + h2o_c,Cgl2670,9.5,eQuilibrator_API
+HPYRI_reverse_num1,2h3oppan_c --> hpyr_c,Cgl2109,-1.6,eQuilibrator_API
+MALGT_reverse,tre_c --> malt_c,Cgl2303,-0.4,eQuilibrator_API
+MALTATr_reverse,acmalt_c + coa_c --> accoa_c + malt_c,Cgl0143,3.0,eQuilibrator_API
+MAN1PG_reverse,gdpmann_c + ppi_c --> gtp_c + man1p_c,Cgl0742,8.9,eQuilibrator_API
+MAN6PI_reverse,f6p_c --> man6p_c,Cgl0748,1.4,eQuilibrator_API
+MM_COA_ADD5_reverse,adp_c + h_c + mmcoa__S_c + pi_c --> atp_c + hco3_c + ppcoa_c,Cgl0707,6.0,eQuilibrator_API
+PGMT_reverse,g6p_c --> g1p_c,Cgl2541,7.4,eQuilibrator_API
+PMANM_reverse_num1,man6p_c --> man1p_c,Cgl0687,4.4,eQuilibrator_API
+UDPG4E_reverse,udpgal_c --> udpg_c,Cgl1921,-1.3,eQuilibrator_API
+XYLI1_reverse,xylu__D_c --> xyl__D_c,Cgl0172,-3.7,eQuilibrator_API
+MCITD_reverse_num1,2mcacn_c + h2o_c --> 2mcit_c,Cgl0657,2.9,eQuilibrator_API
+ACOTA_reverse,acg5sa_c + glu__L_c --> acorn_c + akg_c,Cgl1397,3.6,eQuilibrator_API
+AGPR_reverse,acg5p_c + h_c + nadph_c --> acg5sa_c + nadp_c + pi_c,Cgl1394,-4.6,eQuilibrator_API
+ARGSL_reverse,arg__L_c + fum_c --> argsuc_c,Cgl1401,9.0,eQuilibrator_API
+GLUNATF_reverse,acglu_c + orn_c --> acorn_c + glu__L_c,Cgl1395,-2.7,eQuilibrator_API
+OCBT_reverse,citr__L_c + h_c + pi_c --> cbp_c + orn_c,Cgl1398,31.6,eQuilibrator_API
+BAMPN_reverse,amp_c + bccp_c + h_c --> apo_c + btamp_c,,31.6,eQuilibrator_API
+ALAALAr_reverse,adp_c + alaala_c + h_c + pi_c --> 2.0 ala__D_c + atp_c,Cgl1321,29.0,eQuilibrator_API
+CDPDAG_reverse,cdpdag_c + ppi_c --> ctp_c + pa_c,,29.0,eQuilibrator_API
+GLUR_reverse,glu__L_c --> glu__D_c,Cgl2509,0.5,eQuilibrator_API
+PGAMT_reverse,gam6p_c --> gam1p_c,Cgl0583,3.4,eQuilibrator_API
+G1PTT_reverse,dtdpglu_c + ppi_c --> dttp_c + g1p_c + h_c,Cgl0332,-1.8,eQuilibrator_API
+GALUi_reverse_num1,ppi_c + udpg_c --> g1p_c + h_c + utp_c,Cgl0367,3.2,eQuilibrator_API
+PAPPT3_reverse,uagmda_c + ump_c --> udcpp_c + ugmda_c,Cgl2161,1.7,eQuilibrator_API
+ACONTa_reverse,acon_C_c + h2o_c --> cit_c,Cgl1540,-9.2,eQuilibrator_API
+ACONTb_reverse,icit_c --> acon_C_c + h2o_c,Cgl1540,1.4,eQuilibrator_API
+FUM_reverse,mal__L_c --> fum_c + h2o_c,Cgl1010,3.43,eQuilibrator_API
+MDH_reverse,h_c + nadh_c + oaa_c --> mal__L_c + nad_c,Cgl2380,-25.38,eQuilibrator_API
+PYRC_reverse,adp_c + h_c + oaa_c + pi_c --> atp_c + hco3_c + pyr_c,Cgl0689,7.8,eQuilibrator_API
+AMAOTr_reverse,amob_c + dann_c --> 8aonn_c + amet_c,Cgl2604,1.7748502727426398,eQuilibrator_API
+DHFR_reverse,nadp_c + thf_c --> dhf_c + h_c + nadph_c,Cgl0843,18.1,eQuilibrator_API
+DHPTPE_reverse,dhmptp_c --> ahdt_c,Cgl2693,17.0,eQuilibrator_API
+G1SAT_reverse,5aop_c --> glu1sa_c,Cgl0437,9.5,eQuilibrator_API
+GTHOr_reverse,2.0 gthrd_c + nadp_c --> gthox_c + h_c + nadph_c,Cgl2003,12.2,eQuilibrator_API
+ICHORS_reverse,ichor_c --> chor_c,Cgl1292,-1.0,eQuilibrator_API
+IPDDI_reverse,dmpp_c --> ipdp_c,Cgl2305,4.8,eQuilibrator_API
+OHPBAT_reverse,akg_c + phthr_c --> glu__L_c + ohpb_c,Cgl0828,-10.0,eQuilibrator_API
+PY5PSH_reverse,glu__L_c + 3.0 h2o_c + h_c + pi_c + pydx5p_c --> g3p_c + gln__L_c + r5p_c,Cgl0788 and Cgl0789,308.0,eQuilibrator_API
+TRATF_reverse_num1,2saa_c + glu__L_c --> akg_c + tau_c,Cgl2441,308.0,eQuilibrator_API
+NAMNPP_reverse,adp_c + nicrnt_c + pi_c + ppi_c --> atp_c + h2o_c + nac_c + prpp_c,Cgl2517,39.2,eQuilibrator_API
+RBFK_reverse,adp_c + fmn_c + h_c --> atp_c + ribflv_c,Cgl1978,16.5,eQuilibrator_API
+SERAT_reverse,acser_c + coa_c --> accoa_c + ser__L_c,Cgl2563,6.0,eQuilibrator_API
+ACBCP_reverse,bccp_c + malcoa_c --> accoa_c + cbccp_c,,6.0,eQuilibrator_API
+MTHFC_reverse,10fthf_c + h_c --> h2o_c + methf_c,Cgl0648,5.0,eQuilibrator_API
+MTHFD_reverse,methf_c + nadph_c --> mlthf_c + nadp_c,Cgl0648,-5.5,eQuilibrator_API
+GHMT2r_reverse,gly_c + h2o_c + mlthf_c --> ser__L_c + thf_c,Cgl0996,10.1,eQuilibrator_API
+ENO_reverse,h2o_c + pep_c --> 2pg_c,Cgl0974,3.89,eQuilibrator_API
+FBA_reverse,dhap_c + g3p_c --> fdp_c,Cgl2770,-23.7,eQuilibrator_API
+GAPD_reverse_num1,13dpg_c + h_c + nadh_c --> g3p_c + nad_c + pi_c,Cgl0937,-0.1,eQuilibrator_API
+PGI_reverse,f6p_c --> g6p_c,Cgl0851,-2.5,eQuilibrator_API
+PGK_reverse,3pg_c + atp_c --> 13dpg_c + adp_c,Cgl1587,19.5,eQuilibrator_API
+PGM_reverse_num1,2pg_c --> 3pg_c,Cgl1058,-4.3,eQuilibrator_API
+TPI_reverse,g3p_c --> dhap_c,Cgl1586,-5.7,eQuilibrator_API
+PRMICI_reverse,prlp_c --> prfp_c,Cgl2096,9.8,eQuilibrator_API
+PRPPS_reverse,amp_c + h_c + prpp_c --> atp_c + r5p_c,Cgl0942,1.4,eQuilibrator_API
+MI2DH_reverse_num1,2ins_c + h_c + nadh_c --> inost_c + nad_c,Cgl0164,6.7,eQuilibrator_API
+MI2DHT_reverse,h2o_c + thcd_c --> 2ins_c,Cgl0163,6.7,eQuilibrator_API
+ACACT1r_reverse,aacoa_c + coa_c --> 2.0 accoa_c,Cgl2392,-25.2,eQuilibrator_API
+ACOAD1f_reverse,b2coa_c + fadh2_c --> btcoa_c + fad_c,Cgl0288,-36.0,eQuilibrator_API
+ACOAD3f_reverse,fadh2_c + oc2coa_c --> fad_c + occoa_c,Cgl0288,-41.4,eQuilibrator_API
+ACOAD5f_reverse,dd2coa_c + fadh2_c --> ddcacoa_c + fad_c,Cgl0288,-41.4,eQuilibrator_API
+ACOAD6f_reverse,fadh2_c + td2coa_c --> fad_c + tdcoa_c,Cgl0288,-41.4,eQuilibrator_API
+ACOAD7f_reverse,fadh2_c + hdd2coa_c --> fad_c + pmtcoa_c,Cgl0288,-44.9,eQuilibrator_API
+ACOAD8f_reverse,fadh2_c + od2coa_c --> fad_c + stcoa_c,Cgl0288,-41.4,eQuilibrator_API
+ADK1_reverse,2.0 adp_c --> amp_c + atp_c,Cgl0556,-0.52,eQuilibrator_API
+ADK2_reverse,adp_c + dadp_c --> atp_c + damp_c,Cgl0556,-3.4,eQuilibrator_API
+ADK3_reverse,adp_c + gdp_c --> amp_c + gtp_c,Cgl0315,-2.7,eQuilibrator_API
+ADK4_reverse,adp_c + idp_c --> amp_c + itp_c,Cgl0315,0.7,eQuilibrator_API
+CYTK1_reverse,adp_c + cdp_c --> atp_c + cmp_c,Cgl1427,-2.0,eQuilibrator_API
+CYTK2_reverse,adp_c + dcdp_c --> atp_c + dcmp_c,Cgl1427,-2.0,eQuilibrator_API
+DGK1_reverse,adp_c + dgdp_c --> atp_c + dgmp_c,Cgl1606,-5.3,eQuilibrator_API
+DTMPK_reverse,adp_c + dtdp_c --> atp_c + dtmp_c,Cgl0753,2.3,eQuilibrator_API
+GK1_reverse,adp_c + gdp_c --> atp_c + gmp_c,Cgl1606,0.1,eQuilibrator_API
+NDPK1_reverse,adp_c + gtp_c --> atp_c + gdp_c,Cgl2370,2.2,eQuilibrator_API
+NDPK2_reverse,adp_c + utp_c --> atp_c + udp_c,Cgl2370,-0.5,eQuilibrator_API
+NDPK3_reverse,adp_c + ctp_c --> atp_c + cdp_c,Cgl2370,-0.3,eQuilibrator_API
+NDPK4_reverse,adp_c + dttp_c --> atp_c + dtdp_c,Cgl2370,-0.8,eQuilibrator_API
+NDPK5_reverse,adp_c + dgtp_c --> atp_c + dgdp_c,Cgl2370,-1.7,eQuilibrator_API
+NDPK6_reverse,adp_c + dutp_c --> atp_c + dudp_c,Cgl2370,1.1,eQuilibrator_API
+NDPK7_reverse,adp_c + dctp_c --> atp_c + dcdp_c,Cgl2370,-3.8,eQuilibrator_API
+NDPK8_reverse,adp_c + datp_c --> atp_c + dadp_c,Cgl2370,-2.5,eQuilibrator_API
+NNATr_reverse,dnad_c + ppi_c --> atp_c + h_c + nicrnt_c,Cgl2352,25.0,eQuilibrator_API
+UMPK_reverse,adp_c + udp_c --> atp_c + ump_c,Cgl2024,-0.4,eQuilibrator_API
+URIDK2r_reverse,adp_c + dudp_c --> atp_c + dump_c,Cgl0753,-0.6,eQuilibrator_API
+ATPS4rpp_reverse,atp_c + h2o_c + 3.0 h_c --> adp_c + 4.0 h_e + pi_c,Cgl1213 and Cgl1211 and Cgl1210 and Cgl1208 and Cgl1212 and Cgl1209 and Cgl1207 and Cgl1206,-30.61,eQuilibrator_API
+PPKr_reverse,adp_c + ppi_c --> atp_c + pi_c,,14.87,eQuilibrator_API
+G6PDH2r_reverse,6pgl_c + h_c + nadph_c --> g6p_c + nadp_c,Cgl1576,7.6,eQuilibrator_API
+RPE_reverse,xu5p__D_c --> ru5p__D_c,Cgl1598,3.4,eQuilibrator_API
+RPI_reverse,ru5p__D_c --> r5p_c,Cgl2423,-4.5,eQuilibrator_API
+TALA_reverse,e4p_c + f6p_c --> g3p_c + s7p_c,Cgl1575,1.2,eQuilibrator_API
+TKT1_reverse,g3p_c + s7p_c --> r5p_c + xu5p__D_c,Cgl1574,1.5,eQuilibrator_API
+TKT2_reverse,f6p_c + g3p_c --> e4p_c + xu5p__D_c,Cgl1575,10.5,eQuilibrator_API
+ADSL1r_reverse,amp_c + fum_c --> dcamp_c,Cgl2598,-17.0,eQuilibrator_API
+ADSL2r_reverse,aicar_c + fum_c --> 25aics_c,Cgl2598,-24.8,eQuilibrator_API
+AICART_reverse,fprica_c + thf_c --> 10fthf_c + aicar_c,Cgl0861,-14.0,eQuilibrator_API
+DHORTS_reverse,cbasp_c + h_c --> dhor__S_c + h2o_c,Cgl1612,8.4,eQuilibrator_API
+GARFT_reverse,fgam_c + h_c + thf_c --> 10fthf_c + gar_c,Cgl0860 and Cgl2759,-1.0,eQuilibrator_API
+IMPC_reverse,fprica_c --> h2o_c + imp_c,,-20.0,eQuilibrator_API
+ORPT_reverse,orot_c + prpp_c --> orot5p_c + ppi_c,Cgl2773,1.7,eQuilibrator_API
+PRAGSr_reverse,adp_c + gar_c + h_c + pi_c --> atp_c + gly_c + pram_c,Cgl2600,27.5,eQuilibrator_API
+ACALD_reverse,accoa_c + h_c + nadh_c --> acald_c + coa_c + nad_c,Cgl0319,22.3,eQuilibrator_API
+ACKr_reverse,actp_c + adp_c --> ac_c + atp_c,Cgl2752,-14.6,eQuilibrator_API
+ALCD2x_reverse_num1,acald_c + h_c + nadh_c --> etoh_c + nad_c,Cgl2807,-16.98,eQuilibrator_API
+LDH_D_reverse,h_c + nadh_c + pyr_c --> lac__D_c + nad_c,Cgl0901,-19.5,eQuilibrator_API
+PTAr_reverse,actp_c + coa_c --> accoa_c + pi_c,Cgl2753,-9.4,eQuilibrator_API
+ASAD_reverse,4pasp_c + h_c + nadph_c --> aspsa_c + nadp_c + pi_c,Cgl0252,25.4,eQuilibrator_API
+ASPK_reverse,4pasp_c + adp_c --> asp__L_c + atp_c,Cgl0251,-21.8,eQuilibrator_API
+DAPE_reverse,26dap__M_c --> 26dap_LL_c,Cgl1943,1.7,eQuilibrator_API
+HSDy_reverse,aspsa_c + h_c + nadph_c --> hom__L_c + nadp_c,Cgl1183,-18.6,eQuilibrator_API
+SDPTA_reverse,glu__L_c + sl2a6o_c --> akg_c + sl26da_c,Cgl0814,1.3,eQuilibrator_API
+PHETA1_reverse_num1,akg_c + phe__L_c --> glu__L_c + phpyr_c,Cgl0218,-0.4,eQuilibrator_API
+PSCVT_reverse,3psme_c + pi_c --> pep_c + skm5p_c,Cgl0764,15.9,eQuilibrator_API
+SHK3Dr_reverse_num1,nadp_c + skm_c --> 3dhsk_c + h_c + nadph_c,Cgl1132,5.7,eQuilibrator_API
+TYRTA_reverse_num1,akg_c + tyr__L_c --> 34hpp_c + glu__L_c,Cgl0218,0.1,eQuilibrator_API
+ILETA_reverse,akg_c + ile__L_c --> 3mop_c + glu__L_c,Cgl2204,-6.2,eQuilibrator_API
+IPPMIa_reverse,2ippm_c + h2o_c --> 3c2hmp_c,Cgl1315 and Cgl1316,3.7,eQuilibrator_API
+IPPMIb_reverse,3c3hmp_c --> 2ippm_c + h2o_c,Cgl1315 and Cgl1316,0.4,eQuilibrator_API
+KARA1_reverse,alac__S_c + h_c + nadph_c --> 23dhmb_c + nadp_c,Cgl1273,-14.8,eQuilibrator_API
+KARA2_reverse,23dhmp_c + nadp_c --> 2ahbut_c + h_c + nadph_c,Cgl1273,14.8,eQuilibrator_API
+ADNUC_num2,adn_c + h2o_c --> ade_c + rib__D_c,Cgl0761,-6.0,eQuilibrator_API
+ADNUC_num3,adn_c + h2o_c --> ade_c + rib__D_c,Cgl0918,-6.0,eQuilibrator_API
+ALCD19_num2,glyald_c + h_c + nadh_c --> glyc_c + nad_c,Cgl1261,-35.0,eQuilibrator_API
+ALCD19_num3,glyald_c + h_c + nadh_c --> glyc_c + nad_c,Cgl2469,-35.0,eQuilibrator_API
+ARAI_num2,arab__L_c --> rbl__L_c,Cgl3006,4.9,eQuilibrator_API
+FFSD_num2,h2o_c + suc6p_c --> fru_c + g6p_c,Cgl1116,-21.1,eQuilibrator_API
+GNK_num2,atp_c + glcn_c --> 6pgc_c + adp_c + h_c,Cgl3008,-12.7,eQuilibrator_API
+HPYRI_num2,hpyr_c --> 2h3oppan_c,Cgl2471,1.6,eQuilibrator_API
+MSDH_num2,2mop_c + coa_c + h2o_c + nad_c --> hco3_c + nadh_c + ppcoa_c,Cgl0295,-39.2,eQuilibrator_API
+PGLYCP_num2,2pglyc_c + h2o_c --> glyclt_c + pi_c,Cgl1462,-32.0,eQuilibrator_API
+PMANM_num2,man1p_c --> man6p_c,Cgl0746,-4.4,eQuilibrator_API
+RBK_num2,atp_c + rib__D_c --> adp_c + h_c + r5p_c,Cgl2325,-30.1,eQuilibrator_API
+UDPGPpp_num2,h2o_c + udpg_c --> g1p_c + 2.0 h_c + ump_c,Cgl2922,-43.0,eQuilibrator_API
+MCITD_num2,2mcit_c --> 2mcacn_c + h2o_c,Cgl0694,-2.9,eQuilibrator_API
+MCITD_num3,2mcit_c --> 2mcacn_c + h2o_c,Cgl2538,-2.9,eQuilibrator_API
+ME1_num2,mal__L_c + nad_c --> co2_c + nadh_c + pyr_c,Cgl3007,12.1,eQuilibrator_API
+AMPTASEPG_num2,h2o_c + progly_c --> gly_c + pro__L_c,Cgl2205,28.0,eQuilibrator_API
+SPMDAT2_num2,accoa_c + spmd_c --> coa_c + h_c + n8aspmd_c,Cgl0178,-27.2,eQuilibrator_API
+SPMDAT2_num3,accoa_c + spmd_c --> coa_c + h_c + n8aspmd_c,Cgl0536,-27.2,eQuilibrator_API
+SPMDAT2_num4,accoa_c + spmd_c --> coa_c + h_c + n8aspmd_c,Cgl0569,-27.2,eQuilibrator_API
+SPMDAT2_num5,accoa_c + spmd_c --> coa_c + h_c + n8aspmd_c,Cgl1035,-27.2,eQuilibrator_API
+SPMDAT2_num6,accoa_c + spmd_c --> coa_c + h_c + n8aspmd_c,Cgl2739,-27.2,eQuilibrator_API
+SSALy_num2,h2o_c + nadp_c + sucsal_c --> 2.0 h_c + nadph_c + succ_c,Cgl0480,-44.3,eQuilibrator_API
+SSALy_num3,h2o_c + nadp_c + sucsal_c --> 2.0 h_c + nadph_c + succ_c,Cgl2713,-44.3,eQuilibrator_API
+FACOAL160t2pp_num2,atp_c + coa_c + h_e + hdca_e --> amp_c + h_c + pmtcoa_c + ppi_c,Cgl0284,-16.0,eQuilibrator_API
+FACOAL180t2pp_num2,atp_c + coa_c + h_e + ocdca_e --> amp_c + h_c + ppi_c + stcoa_c,Cgl0284,-14.6,eQuilibrator_API
+FACOAL80t2pp_num2,atp_c + coa_c + h_e + octa_e --> amp_c + h_c + occoa_c + ppi_c,Cgl0284,-14.6,eQuilibrator_API
+MI1PP_num2,h2o_c + mi1p__D_c --> inost_c + pi_c,Cgl2095,-23.1,eQuilibrator_API
+TDPGDH_num2,dtdpglu_c --> dtdp4d6dg_c + h2o_c,Cgl0334,-47.5,eQuilibrator_API
+TDPGDH_num3,dtdpglu_c --> dtdp4d6dg_c + h2o_c,Cgl0347,-47.5,eQuilibrator_API
+UAGCVT_num2,pep_c + uacgam_c --> pi_c + uaccg_c,Cgl2558,-14.0,eQuilibrator_API
+UAMDH_num2,h_c + nadph_c + uaccg_c --> nadp_c + uamr_c,Cgl0397,-54.6,eQuilibrator_API
+UDPGD_num2,h2o_c + 2.0 nad_c + udpg_c --> 3.0 h_c + 2.0 nadh_c + udpglcur_c,Cgl2847,-31.5,eQuilibrator_API
+GALUi_num2,g1p_c + h_c + utp_c --> ppi_c + udpg_c,Cgl0882,-3.2,eQuilibrator_API
+CS_num2,accoa_c + h2o_c + oaa_c --> cit_c + coa_c + h_c,Cgl0829,-40.0,eQuilibrator_API
+DHPS2_num2,4abz_c + 6hmhptpp_c --> dhpt_c + ppi_c,Cgl2694,-65.0,eQuilibrator_API
+DMATT_num2,dmpp_c + ipdp_c --> grdp_c + ppi_c,Cgl2172,-82.3,eQuilibrator_API
+GRTT_num2,grdp_c + ipdp_c --> frdp_c + ppi_c,Cgl2528,-83.9,eQuilibrator_API
+GTPDPDP_num2,gdptp_c + h2o_c --> h_c + pi_c + ppgpp_c,Cgl0373,-32.8,eQuilibrator_API
+MSDHD_num2,coa_c + msa_c + nad_c --> accoa_c + co2_c + nadh_c,Cgl0295,-26.0,eQuilibrator_API
+NADDP_num2,h2o_c + nad_c --> amp_c + 2.0 h_c + nmn_c,Cgl1244,-42.5,eQuilibrator_API
+NADPPPS_num2,h2o_c + nadp_c --> nad_c + pi_c,Cgl0415,-17.6,eQuilibrator_API
+NADPPPS_num3,h2o_c + nadp_c --> nad_c + pi_c,Cgl1153,-17.6,eQuilibrator_API
+PANTS_num2,ala_B_c + atp_c + pant__R_c --> amp_c + h_c + pnto__R_c + ppi_c,Cgl2688,-47.0,eQuilibrator_API
+TMPPP_num2,2mahmp_c + 4mpetz_c + h_c --> ppi_c + thmmp_c,Cgl2038,-25.6,eQuilibrator_API
+TMPPP_num3,2mahmp_c + 4mpetz_c + h_c --> ppi_c + thmmp_c,Cgl0097,-25.6,eQuilibrator_API
+TRATF_num2,akg_c + tau_c --> 2saa_c + glu__L_c,Cgl0202,-25.6,eQuilibrator_API
+UPP3MT_num2,2.0 amet_c + uppg3_c --> 2.0 ahcys_c + dscL_c + h_c,Cgl1998,-25.6,eQuilibrator_API
+AMPTASECG_num2,cgly_c + h2o_c --> cys__L_c + gly_c,Cgl2205,8.0,eQuilibrator_API
+MCPST_num2,cyan_c + mercppyr_c --> h_c + pyr_c + tcynt_c,Cgl1424,-80.0,eQuilibrator_API
+MCPST_num3,cyan_c + mercppyr_c --> h_c + pyr_c + tcynt_c,Cgl2776,-80.0,eQuilibrator_API
+GLNS_num2,atp_c + glu__L_c + nh4_c --> adp_c + gln__L_c + h_c + pi_c,Cgl2229,-16.4,eQuilibrator_API
+LPLIPAL1A180pp_num2,1odecg3p_c + h2o_c --> glyc3p_c + h_c + ocdca_c,Cgl0081,-28.6,eQuilibrator_API
+GAPD_num2,g3p_c + nad_c + pi_c --> 13dpg_c + h_c + nadh_c,Cgl1588,0.1,eQuilibrator_API
+GLCP_num2,glycogen_c + pi_c --> g1p_c,Cgl2087,811.0,eQuilibrator_API
+PGM_num2,3pg_c --> 2pg_c,Cgl2236,4.3,eQuilibrator_API
+PGM_num3,3pg_c --> 2pg_c,Cgl2350,4.3,eQuilibrator_API
+PGM_num4,3pg_c --> 2pg_c,,4.3,eQuilibrator_API
+PGM_num5,3pg_c --> 2pg_c,Cgl0402,4.3,eQuilibrator_API
+PYK_num2,adp_c + h_c + pep_c --> atp_c + pyr_c,Cgl2910,-24.5,eQuilibrator_API
+HSTPT_num2,glu__L_c + imacp_c --> akg_c + hisp_c,Cgl2101,9.5,eQuilibrator_API
+FE3abcpp_num2,atp_c + fe3_e + h2o_c --> adp_c + fe3_c + h_c + pi_c,Cgl0389 and Cgl0390 and Cgl0391,-30.61,eQuilibrator_API
+Kabcpp_num2,atp_c + h2o_c + k_e --> adp_c + h_c + k_c + pi_c,Cgl2784,-30.61,eQuilibrator_API
+Kabcpp_num3,atp_c + h2o_c + k_e --> adp_c + h_c + k_c + pi_c,Cgl1141,-30.61,eQuilibrator_API
+Kabcpp_num4,atp_c + h2o_c + k_e --> adp_c + h_c + k_c + pi_c,Cgl2887,-30.61,eQuilibrator_API
+Kabcpp_num5,atp_c + h2o_c + k_e --> adp_c + h_c + k_c + pi_c,Cgl1509,-30.61,eQuilibrator_API
+ZN2abcpp_num2,atp_c + h2o_c + zn2_c --> adp_c + h_c + pi_c + zn2_e,Cgl2628 and Cgl2629 and Cgl2630,-30.61,eQuilibrator_API
+MI2DH_num2,inost_c + nad_c --> 2ins_c + h_c + nadh_c,Cgl2110,-6.7,eQuilibrator_API
+MI2DH_num3,inost_c + nad_c --> 2ins_c + h_c + nadh_c,Cgl3062,-6.7,eQuilibrator_API
+MI2DH_num4,inost_c + nad_c --> 2ins_c + h_c + nadh_c,Cgl3063,-6.7,eQuilibrator_API
+ACCOAC_num2,accoa_c + atp_c + hco3_c --> adp_c + h_c + malcoa_c + pi_c,Cgl2870,-10.1,eQuilibrator_API
+HSST_num2,accoa_c + hom__L_c --> achms_c + coa_c,Cgl0839,-28.0,eQuilibrator_API
+SHSL1_num2,cys__L_c + suchms_c --> cyst__L_c + h_c + succ_c,Cgl2786,-66.0,eQuilibrator_API
+NHFRBO_num2,h_c + nadh_c + 2.0 no_c --> h2o_c + n2o_c + nad_c,Cgl0100,-285.0,eQuilibrator_API
+DCTPD_num2,dctp_c + h2o_c + h_c --> dutp_c + nh4_c,Cgl0228,-29.4,eQuilibrator_API
+GSNHYDRO_num2,gsn_c + h2o_c --> gua_c + rib__D_c,Cgl1144,-2.6,eQuilibrator_API
+HXPRT_num2,hxan_c + prpp_c --> imp_c + ppi_c,Cgl1468,-32.1,eQuilibrator_API
+UPPRT_num2,prpp_c + ura_c --> ppi_c + ump_c,Cgl1613,-24.0,eQuilibrator_API
+XTSNH_num2,h2o_c + xtsn_c --> rib__D_c + xan_c,Cgl1178,-3.7,eQuilibrator_API
+XTSNH_num3,h2o_c + xtsn_c --> rib__D_c + xan_c,Cgl2793,-3.7,eQuilibrator_API
+FDH4pp_num2,for_e + 2.0 h_c + q8_c --> co2_c + h_e + q8h2_c,Cgl0529,-145.0,eQuilibrator_API
+FDH5pp_num2,for_e + 2.0 h_c + mqn8_c --> co2_c + h_e + mql8_c,Cgl0529,-37.0,eQuilibrator_API
+NADPHQR2_num2,h_c + nadph_c + q8_c --> nadp_c + q8h2_c,Cgl2537,-131.0,eQuilibrator_API
+NADPHQR2_num3,h_c + nadph_c + q8_c --> nadp_c + q8h2_c,Cgl3004,-131.0,eQuilibrator_API
+NADPHQR2_num4,h_c + nadph_c + q8_c --> nadp_c + q8h2_c,Cgl0203,-131.0,eQuilibrator_API
+NADPHQR3_num2,h_c + mqn8_c + nadph_c --> mql8_c + nadp_c,Cgl2537,-23.0,eQuilibrator_API
+NADPHQR3_num3,h_c + mqn8_c + nadph_c --> mql8_c + nadp_c,Cgl3004,-23.0,eQuilibrator_API
+NADPHQR3_num4,h_c + mqn8_c + nadph_c --> mql8_c + nadp_c,Cgl0203,-23.0,eQuilibrator_API
+NADPHQR4_num2,2dmmq8_c + h_c + nadph_c --> 2dmmql8_c + nadp_c,Cgl2537,-46.0,eQuilibrator_API
+NADPHQR4_num3,2dmmq8_c + h_c + nadph_c --> 2dmmql8_c + nadp_c,Cgl3004,-46.0,eQuilibrator_API
+NADPHQR4_num4,2dmmq8_c + h_c + nadph_c --> 2dmmql8_c + nadp_c,Cgl0203,-46.0,eQuilibrator_API
+IMPD_num2,h2o_c + imp_c + nad_c --> h_c + nadh_c + xmp_c,Cgl0604,15.0,eQuilibrator_API
+IMPD_num3,h2o_c + imp_c + nad_c --> h_c + nadh_c + xmp_c,Cgl2679,15.0,eQuilibrator_API
+ALCD2x_num2,etoh_c + nad_c --> acald_c + h_c + nadh_c,Cgl0222,16.98,eQuilibrator_API
+DAPDC_num2,26dap__M_c + h_c --> co2_c + lys__L_c,Cgl2135,-14.0,eQuilibrator_API
+THDPS_num2,h2o_c + succoa_c + thdp_c --> coa_c + sl2a6o_c,Cgl1108,26.0,eQuilibrator_API
+ACMANAptspp_num2,acmana_e + pep_c --> acmanap_c + pyr_c,Cgl1937,-38.9,eQuilibrator_API
+ACMUMptspp_num2,acmum_e + pep_c --> acmum6p_c + pyr_c,Cgl1937,-42.4,eQuilibrator_API
+GLYBabcpp_num2,atp_c + glyb_e + h2o_c --> adp_c + glyb_c + h_c + pi_c,Cgl2312,-30.61,eQuilibrator_API
+PA120abcpp_num2,atp_c + h2o_c + pa120_c --> adp_c + h_c + pa120_e + pi_c,Cgl1458 and Cgl1459 and Cgl1460 and Cgl1461,-30.61,eQuilibrator_API
+PA140abcpp_num2,atp_c + h2o_c + pa140_c --> adp_c + h_c + pa140_e + pi_c,Cgl1458 and Cgl1459 and Cgl1460 and Cgl1461,-30.61,eQuilibrator_API
+PA141abcpp_num2,atp_c + h2o_c + pa141_c --> adp_c + h_c + pa141_e + pi_c,Cgl1458 and Cgl1459 and Cgl1460 and Cgl1461,-30.61,eQuilibrator_API
+PA160abcpp_num2,atp_c + h2o_c + pa160_c --> adp_c + h_c + pa160_e + pi_c,Cgl1458 and Cgl1459 and Cgl1460 and Cgl1461,-30.61,eQuilibrator_API
+PA161abcpp_num2,atp_c + h2o_c + pa161_c --> adp_c + h_c + pa161_e + pi_c,Cgl1458 and Cgl1459 and Cgl1460 and Cgl1461,-30.61,eQuilibrator_API
+PA180abcpp_num2,atp_c + h2o_c + pa180_c --> adp_c + h_c + pa180_e + pi_c,Cgl1458 and Cgl1459 and Cgl1460 and Cgl1461,-30.61,eQuilibrator_API
+PA181abcpp_num2,atp_c + h2o_c + pa181_c --> adp_c + h_c + pa181_e + pi_c,Cgl1458 and Cgl1459 and Cgl1460 and Cgl1461,-30.61,eQuilibrator_API
+PGP120abcpp_num2,atp_c + h2o_c + pgp120_c --> adp_c + h_c + pgp120_e + pi_c,Cgl1458 and Cgl1459 and Cgl1460 and Cgl1461,-30.61,eQuilibrator_API
+PGP140abcpp_num2,atp_c + h2o_c + pgp140_c --> adp_c + h_c + pgp140_e + pi_c,Cgl1458 and Cgl1459 and Cgl1460 and Cgl1461,-30.61,eQuilibrator_API
+PGP141abcpp_num2,atp_c + h2o_c + pgp141_c --> adp_c + h_c + pgp141_e + pi_c,Cgl1458 and Cgl1459 and Cgl1460 and Cgl1461,-30.61,eQuilibrator_API
+PGP160abcpp_num2,atp_c + h2o_c + pgp160_c --> adp_c + h_c + pgp160_e + pi_c,Cgl1458 and Cgl1459 and Cgl1460 and Cgl1461,-30.61,eQuilibrator_API
+PGP161abcpp_num2,atp_c + h2o_c + pgp161_c --> adp_c + h_c + pgp161_e + pi_c,Cgl1458 and Cgl1459 and Cgl1460 and Cgl1461,-30.61,eQuilibrator_API
+PGP180abcpp_num2,atp_c + h2o_c + pgp180_c --> adp_c + h_c + pgp180_e + pi_c,Cgl1458 and Cgl1459 and Cgl1460 and Cgl1461,-30.61,eQuilibrator_API
+PGP181abcpp_num2,atp_c + h2o_c + pgp181_c --> adp_c + h_c + pgp181_e + pi_c,Cgl1458 and Cgl1459 and Cgl1460 and Cgl1461,-30.61,eQuilibrator_API
+PHEMEabcpp_num2,atp_c + h2o_c + pheme_c --> adp_c + h_c + pheme_e + pi_c,Cgl1458 and Cgl1459 and Cgl1460 and Cgl1461,-30.61,eQuilibrator_API
+TREptsp_num2,pep_c + tre_c --> pyr_c + tre6p_c,Cgl2875,-50.7,eQuilibrator_API
+TREptsp_num3,pep_c + tre_c --> pyr_c + tre6p_c,Cgl2878,-50.7,eQuilibrator_API
+TREptspp_num2,pep_c + tre_e --> pyr_c + tre6p_c,Cgl2875,-50.7,eQuilibrator_API
+TREptspp_num3,pep_c + tre_e --> pyr_c + tre6p_c,Cgl2878,-50.7,eQuilibrator_API
+PHETA1_num2,glu__L_c + phpyr_c --> akg_c + phe__L_c,Cgl2101,0.4,eQuilibrator_API
+SHK3Dr_num2,3dhsk_c + h_c + nadph_c --> nadp_c + skm_c,Cgl1629,-5.7,eQuilibrator_API
+TYRTA_num2,34hpp_c + glu__L_c --> akg_c + tyr__L_c,Cgl2101,-0.1,eQuilibrator_API
+THRD_L_num2,thr__L_c --> 2obut_c + nh4_c,Cgl2127,-24.0,eQuilibrator_API
+ALCD19_reverse_num2,glyc_c + nad_c --> glyald_c + h_c + nadh_c,Cgl1261,35.0,eQuilibrator_API
+ALCD19_reverse_num3,glyc_c + nad_c --> glyald_c + h_c + nadh_c,Cgl2469,35.0,eQuilibrator_API
+ARAI_reverse_num2,rbl__L_c --> arab__L_c,Cgl3006,-4.9,eQuilibrator_API
+HPYRI_reverse_num2,2h3oppan_c --> hpyr_c,Cgl2471,-1.6,eQuilibrator_API
+PMANM_reverse_num2,man6p_c --> man1p_c,Cgl0746,4.4,eQuilibrator_API
+MCITD_reverse_num2,2mcacn_c + h2o_c --> 2mcit_c,Cgl0694,2.9,eQuilibrator_API
+MCITD_reverse_num3,2mcacn_c + h2o_c --> 2mcit_c,Cgl2538,2.9,eQuilibrator_API
+GALUi_reverse_num2,ppi_c + udpg_c --> g1p_c + h_c + utp_c,Cgl0882,3.2,eQuilibrator_API
+TRATF_reverse_num2,2saa_c + glu__L_c --> akg_c + tau_c,Cgl0202,3.2,eQuilibrator_API
+GAPD_reverse_num2,13dpg_c + h_c + nadh_c --> g3p_c + nad_c + pi_c,Cgl1588,-0.1,eQuilibrator_API
+PGM_reverse_num2,2pg_c --> 3pg_c,Cgl2236,-4.3,eQuilibrator_API
+PGM_reverse_num3,2pg_c --> 3pg_c,Cgl2350,-4.3,eQuilibrator_API
+PGM_reverse_num4,2pg_c --> 3pg_c,,-4.3,eQuilibrator_API
+PGM_reverse_num5,2pg_c --> 3pg_c,Cgl0402,-4.3,eQuilibrator_API
+MI2DH_reverse_num2,2ins_c + h_c + nadh_c --> inost_c + nad_c,Cgl2110,6.7,eQuilibrator_API
+MI2DH_reverse_num3,2ins_c + h_c + nadh_c --> inost_c + nad_c,Cgl3062,6.7,eQuilibrator_API
+MI2DH_reverse_num4,2ins_c + h_c + nadh_c --> inost_c + nad_c,Cgl3063,6.7,eQuilibrator_API
+ALCD2x_reverse_num2,acald_c + h_c + nadh_c --> etoh_c + nad_c,Cgl0222,-16.98,eQuilibrator_API
+PHETA1_reverse_num2,akg_c + phe__L_c --> glu__L_c + phpyr_c,Cgl2101,-0.4,eQuilibrator_API
+SHK3Dr_reverse_num2,nadp_c + skm_c --> 3dhsk_c + h_c + nadph_c,Cgl1629,5.7,eQuilibrator_API
+TYRTA_reverse_num2,akg_c + tyr__L_c --> 34hpp_c + glu__L_c,Cgl2101,0.1,eQuilibrator_API
+AIRC2+AIRC3_reverse,air_c+ atp_c + hco3_c --> 5aizc_c + adp_c + h_c + pi_c,Cgl0711,-27.0,Manual
